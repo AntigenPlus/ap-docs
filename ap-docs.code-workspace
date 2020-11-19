@@ -4,5 +4,9 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"git.postCommitCommand": "sync",
+		"jekyll-run.commandLineArguments": "--livereload --trace"
+	},
+	"extensions": {"recommendations": ["dedsec727.jekyll-run"]}
 }
