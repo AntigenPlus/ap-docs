@@ -6,7 +6,16 @@
 	],
 	"settings": {
 		"git.postCommitCommand": "sync",
-		"jekyll-run.commandLineArguments": "--livereload --trace"
+		"jekyll-run.commandLineArguments": "--livereload --trace",
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"_site": true,
+			".jekyll-cache": true
+		}
 	},
 	"extensions": {"recommendations": ["dedsec727.jekyll-run"]}
 }

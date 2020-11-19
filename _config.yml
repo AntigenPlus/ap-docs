@@ -1,5 +1,6 @@
 title: Antigen Plus documentation
 remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 search_enabled: true
 
 webrick:
