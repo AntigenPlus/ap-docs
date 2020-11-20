@@ -29,7 +29,8 @@
 		"recommendations": [
 			"dedsec727.jekyll-run",
 			"esbenp.prettier-vscode",
-			"bierner.markdown-preview-github-styles"
+			"bierner.markdown-preview-github-styles",
+			"davidanson.vscode-markdownlint"
 		]
 	}
 }
