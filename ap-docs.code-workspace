@@ -23,7 +23,7 @@
 			"**/CVS": true
 		},
 		"prettier.proseWrap": "always",
-		"jekyll-run.commandLineArguments": "--livereload --config _config.yml,_serve.yml"
+		"jekyll-run.commandLineArguments": "--livereload --config _config.yml,_serve.yml --trace"
 	},
 	"extensions": {
 		"recommendations": [
