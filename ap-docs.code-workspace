@@ -5,16 +5,31 @@
 		}
 	],
 	"settings": {
+		"editor.formatOnPaste": true,
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 80,
+		"[markdown]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode",
+			"editor.formatOnSave": true
+		},
 		"git.postCommitCommand": "sync",
 		"jekyll-run.commandLineArguments": "--livereload --trace",
 		"files.exclude": {
+			"_site": true,
 			".jekyll-cache": true,
 			"**/.DS_Store": true,
 			"**/.git": true,
 			"**/.hg": true,
 			"**/.svn": true,
 			"**/CVS": true
-		}
+		},
+		"prettier.proseWrap": "always"
 	},
-	"extensions": {"recommendations": ["dedsec727.jekyll-run"]}
+	"extensions": {
+		"recommendations": [
+			"dedsec727.jekyll-run",
+			"esbenp.prettier-vscode",
+			"bierner.markdown-preview-github-styles"
+		]
+	}
 }
