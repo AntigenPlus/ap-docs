@@ -319,11 +319,10 @@ Double click the Antigen Plus icon to start the program.
 
 # Menus
 
-# F ![](RackMultipart20201123-4-14tdxq2_html_c77049fd6f3bf56d.png) ile Menu
+# File Menu
 
-T ![](RackMultipart20201123-4-14tdxq2_html_df4051fd34e931ce.png) he File menu
-accesses five functions **: Import Data, Refresh Data, Select database, Save
-configuration, Backup, and Exit.**
+The File menu accesses five functions **: Import Data, Refresh Data, Select
+database, Save configuration, Backup, and Exit.**
 
 **Import Data:** Allows the importation of commercial lots from the internet or
 the importation of panels in Antigen Plus format from other sources.
@@ -332,8 +331,7 @@ the importation of panels in Antigen Plus format from other sources.
 entering cell data at the same time **, Refresh Data** will ensure that the new
 data are available to you for search.
 
-**S ![](RackMultipart20201123-4-14tdxq2_html_bfe8352b7fd6e901.png) elect
-database:**
+**Select database:**
 
 This option opens a screen that shows the available databases and allows you to
 select one of them.
@@ -375,14 +373,12 @@ The System Options menu allows you to set and/or change general default
 parameters for using Antigen Plus in your lab. There are three tabs on this
 menu—one each for General, Search, and Printing options.
 
-**G ![](RackMultipart20201123-4-14tdxq2_html_67ccbecdfd98a534.png) eneral Tab**
+**General Tab**
 
 **Antigen Display Order for Search, Selected Cells, and Printing** : Sets the
 display order for cells on each screen where the antigen array appears. The
 antigen array of whichever manufacturer (or alternative) is selected will be the
 one you use for searching, selecting, and entering your test results.
-
-![](RackMultipart20201123-4-14tdxq2_html_b5fcfd7be05f69cd.png)
 
 **Display Order of Selected Cells Panel:** Allows you to view your selected
 cells in one of three sorted orders in Selected Cells panels and Results
@@ -402,8 +398,6 @@ are not in any worksheet that you have saved).
 that are the same except that one is enzyme treated), both panels will be marked
 out-of-stock if you have this feature turned on and choose the out-of-stock
 option**
-
-![](RackMultipart20201123-4-14tdxq2_html_58601d6cc4a31ebc.png)
 
 **Display total negative reactions to heterozygous donors:** This option adds a
 rule-out count row to the Worksheet to show reactions that that may provide more
@@ -443,8 +437,6 @@ inventory of fewer than 200 cells may find it more convenient to search in this
 manner as it eliminates the necessity of hitting the search button to initiate a
 search.
 
-![](RackMultipart20201123-4-14tdxq2_html_ba8d9b19cc763acd.png)
-
 **Printing Tab**
 
 **Text to Appear on Printed Cell Lot Panels and Selected Panels** : Allows you
@@ -470,11 +462,10 @@ This feature is checked as the default for the software. Unchecking it allows
 the printing of the worksheet without the evaluation for those who wish to do
 the evaluation manually using the worksheet layout.
 
-**L ![](RackMultipart20201123-4-14tdxq2_html_8c58320d8f5ebc57.png) eave First
-Column Blank on Selected Cells Printouts**: Eliminates the text in the first
-column of a printed Selected Cells Panel –the selection order number and any out
-of date or frozen designation will appear on the screen but not on the printout
-to allow space for manual notes.
+**Leave First Column Blank on Selected Cells Printouts**: Eliminates the text in
+the first column of a printed Selected Cells Panel –the selection order number
+and any out of date or frozen designation will appear on the screen but not on
+the printout to allow space for manual notes.
 
 ## Customize Results Columns
 
@@ -509,7 +500,7 @@ will appear anytime a user opens a Results Worksheet _unless_ the user is
 importing results from a blood analyzer machine. In this case only the blood
 analyzer result column will appear, and other columns may be added manually.
 
-## ![](RackMultipart20201123-4-14tdxq2_html_64a811817e3c406d.png)Rare Cell Inventory
+## Rare Cell Inventory
 
 This option calls up a list of all the special typings (additional antigens) in
 your database. You may search for all or some of them and print out a report.
@@ -559,7 +550,7 @@ To restore your exclusion criteria back to the default AABB standards, select
 
 #
 
-# V ![](RackMultipart20201123-4-14tdxq2_html_c1bc6c33ba2bc467.png) iew Menu
+# View Menu
 
 #
 
@@ -699,7 +690,7 @@ panels will appear.
 
 ![](RackMultipart20201123-4-14tdxq2_html_443a04fad1353501.png)
 
-## I ![](RackMultipart20201123-4-14tdxq2_html_f5a0239697c65dbf.png) mport Analyzer Results
+## Import Analyzer Results
 
 This menu allows the importing of results from a blood analyzer machine. For
 more information about importing blood analyzer results, see page 39.
@@ -734,7 +725,7 @@ Results Worksheets, see Operation on page 19.
 
 Prints a blank worksheet.
 
-# U ![](RackMultipart20201123-4-14tdxq2_html_aab4557a094dc2fa.png) ser Menu
+# User Menu
 
 ##
 
@@ -751,14 +742,13 @@ administrator changing that user&#39;s password.
 
 ## Account Settings
 
-T ![](RackMultipart20201123-4-14tdxq2_html_2037a494c9e5fef6.png) his window
-allows a user to change their name and password. Administrators may also assign
-administration rights from this window and enable or disable accounts. A new
-user may not log in until an administrator has added him or her in the
-**Maintain Accounts** table or Windows Active directory is used to authenticate
-new users (see Authenticating Users on page?? )
+This window allows a user to change their name and password. Administrators may
+also assign administration rights from this window and enable or disable
+accounts. A new user may not log in until an administrator has added him or her
+in the **Maintain Accounts** table or Windows Active directory is used to
+authenticate new users (see Authenticating Users on page?? )
 
-**S ![](RackMultipart20201123-4-14tdxq2_html_655fbfa039e09308.png) witch User**
+**Switch User**
 
 Logs the current user out and asks for a username and password to continue. A
 new database may also be selected from this screen.
@@ -826,7 +816,7 @@ The other options are for manual password configurations and are activated by
 checking the boxes on the left of the options and setting the desired parameters
 to the right.
 
-# H ![](RackMultipart20201123-4-14tdxq2_html_5fcd040785ee2c90.png) elp Menu
+# Help Menu
 
 The Help Menu makes text regarding the use of Antigen Plus available to the
 user. That text is reproduced in this manual in the appropriately named
@@ -891,12 +881,11 @@ when you click Download Selected Lot(s).
 
 # Downloading Lots with Supplemental Typings
 
-I ![](RackMultipart20201123-4-14tdxq2_html_ed62332fb4f2b4ef.png) mmucor provides
-supplemental unconfirmed typings with some of their panels. You may download
-some or all of these by selecting the SUT box next to the lot number when you
-are downloading. You will be given a choice of which typings you wish to see on
-your downloaded cells in a dialog box. Your choices will remain and may be
-changed or not the next time you download.
+Immucor provides supplemental unconfirmed typings with some of their panels. You
+may download some or all of these by selecting the SUT box next to the lot
+number when you are downloading. You will be given a choice of which typings you
+wish to see on your downloaded cells in a dialog box. Your choices will remain
+and may be changed or not the next time you download.
 
 While the main panel data are verified electronically and do not require
 physical validation (with the current exception of Medion), the supplemental
@@ -990,10 +979,9 @@ designations will appear.
 
 ![](RackMultipart20201123-4-14tdxq2_html_4d41c3bbee54bb1.jpg)
 
-A ![](RackMultipart20201123-4-14tdxq2_html_47d3c41b9ae59f82.png) table of ISBT
-designations used in Antigen Plus can be found in the Appendix. To remove
-Additional **Antigens** from the search display box, uncheck the item(s) in the
-Additional Antigens drop down list.
+Atable of ISBT designations used in Antigen Plus can be found in the Appendix.
+To remove Additional **Antigens** from the search display box, uncheck the
+item(s) in the Additional Antigens drop down list.
 
 ## Selecting and Deselecting
 
@@ -1018,14 +1006,13 @@ current work, a warning box will appear asking if you would like to either
 
 ## Selecting Expired Cells
 
-W ![](RackMultipart20201123-4-14tdxq2_html_fcd9253ba5716288.png) henever you
-select a cell (or cells) with an expiration date that has passed, a dialog box
-will appear allowing you to select that cell (or cells) to enter the results of
-testing to ensure that cell is still reactive for the specific antigens in
-question. You may enter the result for any or all of the positive antigens on
-that cell and those results will be maintained with the date of the test and the
-name of the tester. You may opt out of this process by selecting **Close** and
-the cell will still be selected.
+Whenever you select a cell (or cells) with an expiration date that has passed, a
+dialog box will appear allowing you to select that cell (or cells) to enter the
+results of testing to ensure that cell is still reactive for the specific
+antigens in question. You may enter the result for any or all of the positive
+antigens on that cell and those results will be maintained with the date of the
+test and the name of the tester. You may opt out of this process by selecting
+**Close** and the cell will still be selected.
 
 ![](RackMultipart20201123-4-14tdxq2_html_a8038e40d63d71a2.png)
 
@@ -1080,8 +1067,7 @@ Option 8: Bio-Rad
 
 ![](RackMultipart20201123-4-14tdxq2_html_725569cb3e4e3144.png)
 
-O ![](RackMultipart20201123-4-14tdxq2_html_4a55f6ca2bea9047.png) ption 9:
-Grifols
+Option 9: Grifols
 
 # Selected Cells Panels
 
@@ -1350,18 +1336,18 @@ positive antigen among the 28 antigens that are evaluated by Antigen Plus.
 
 **Mouse- over explanations**
 
-A ![](RackMultipart20201123-4-14tdxq2_html_e3ec9623514ba2bf.png) n added feature
-of Antigen Plus is the ability to see how the exclusion rules are being applied
-for each rule-out on the screen. Whenever a negative result is entered, you may
-mouse-over any positive antigen in that cell to see why it was or why it was not
-ruled out. Any other cell on your worksheet that is involved in a successful
-rule-out or an unsuccessful rule-out will be highlighted as you mouse-over.
+An added feature of Antigen Plus is the ability to see how the exclusion rules
+are being applied for each rule-out on the screen. Whenever a negative result is
+entered, you may mouse-over any positive antigen in that cell to see why it was
+or why it was not ruled out. Any other cell on your worksheet that is involved
+in a successful rule-out or an unsuccessful rule-out will be highlighted as you
+mouse-over.
 
 ![](RackMultipart20201123-4-14tdxq2_html_d4be196e6f6e370d.png)
 
 ##
 
-## A ![](RackMultipart20201123-4-14tdxq2_html_204ad698cf2773a.png) dsorption Columns
+## Adsorption Columns
 
 Adsorption columns may be added and set up for consideration of specific
 antigens. Results in this column will only apply to the designated antigens.
@@ -1477,10 +1463,9 @@ regardless of lot.
 
 # Donor Note
 
-A ![](RackMultipart20201123-4-14tdxq2_html_4aff9e547fb79e14.png) n optional note
-may be stored with each Donor ID by selecting Donor Note from the View menu when
-the donor is displayed in the Donor ID box. Type your note in the Donor Note
-text box and then select Save and Close.
+An optional note may be stored with each Donor ID by selecting Donor Note from
+the View menu when the donor is displayed in the Donor ID box. Type your note in
+the Donor Note text box and then select Save and Close.
 
 A Donor Note is associated with the Donor ID only, not the Lot, so it will
 appear with every Lot that a donor ID is in. When a Donor ID has a note on file,
@@ -1524,11 +1509,10 @@ supplier will also appear, saving you from having to re-enter the data.
 
 Donor Number
 
-T ![](RackMultipart20201123-4-14tdxq2_html_f67476b763023b3d.png) he Donor No.
-box will accept up to 16 characters and may be any combination of capital
-letters and characters except apostrophes. Enter a donor ID and press the Tab
-key to move on to the Lot Number box. If the donor is already on file, the cell
-data will be retrieved and displayed.
+The Donor No. box will accept up to 16 characters and may be any combination of
+capital letters and characters except apostrophes. Enter a donor ID and press
+the Tab key to move on to the Lot Number box. If the donor is already on file,
+the cell data will be retrieved and displayed.
 
 Drop-down (or list) boxes have a scroll bar. One donor may be present on several
 different panels. If a donor has more than one cell on file, and her previously
@@ -1539,7 +1523,7 @@ appear, and you then need to enter only the new lot number, check the expiration
 date, and click the Save button. It is assumed that the phenotype will not have
 changed from a previous panel.
 
-L ![](RackMultipart20201123-4-14tdxq2_html_97d0a6c73b6d1b0b.png) ot Number
+Lot Number
 
 The Lot Number is used to show the supplier&#39;s unique
 
@@ -1582,9 +1566,8 @@ the new expiration date.
 
 Supplier
 
-T ![](RackMultipart20201123-4-14tdxq2_html_4f5a89c8e0cc8f25.png) he Supplier box
-is populated with default commercial suppliers and any that you have added in
-the Suppliers table found in the View menu.
+The Supplier box is populated with default commercial suppliers and any that you
+have added in the Suppliers table found in the View menu.
 
 When a supplier is changed in the Supplier box,
 
@@ -1621,8 +1604,7 @@ On the Add/Edit screen, the array will match the supplier currently selected and
 appearing in the Supplier Box and will change automatically as the supplier is
 changed.
 
-Y ![](RackMultipart20201123-4-14tdxq2_html_6b12d062cfad8125.png) ou may add a
-supplier with any one of these arrays from
+You may add a supplier with any one of these arrays from
 
 #
 
@@ -1642,14 +1624,13 @@ check thebox. To remove an antigen from a cell uncheck the appropriate box.
 
 ![](RackMultipart20201123-4-14tdxq2_html_c94fee83eae4abf3.png)
 
-T ![](RackMultipart20201123-4-14tdxq2_html_6de8fdd807067af8.png) here is no
-limit on how many additional antigens you may enter. However, once the screen
-space is used up, further antigens will be stored but not displayed. When there
-are more additional antigens than can be displayed on a Lot Panel print out, an
-ellipsis (&quot;...&quot;) at the end of the additional antigen list (displayed
-alphabetically) will indicate the presence of the additional typings. Mousing
-over the display all of the antigens present along with their associated ISBT
-designations.
+There is no limit on how many additional antigens you may enter. However, once
+the screen space is used up, further antigens will be stored but not displayed.
+When there are more additional antigens than can be displayed on a Lot Panel
+print out, an ellipsis (&quot;...&quot;) at the end of the additional antigen
+list (displayed alphabetically) will indicate the presence of the additional
+typings. Mousing over the display all of the antigens present along with their
+associated ISBT designations.
 
 A table of ISBT designations used in Antigen Plus can be found in the Appendix.
 
