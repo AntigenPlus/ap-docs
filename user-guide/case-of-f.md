@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 9
 ---
 
-# The Case of **f**
+## The Case of **f**
 
 Some manufacturers have stopped typing all or most donors for the f antigen.
 While the RhHR phenotype indicates the value of f, it does not do so with 100

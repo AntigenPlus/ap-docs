@@ -7,12 +7,12 @@ nav_order: 7
 
 # Operation
 
-# Downloading Lots from the Internet
+## Downloading Lots from the Internet
 
 When you press _Download Lots from Internet_ from the Lot menu, you will see the
 following screen:
 
-![](RackMultipart20201123-4-14tdxq2_html_570f2f6c25cd531b.png)
+![Download lots](images/download-lots.png)
 
 Available panels are listed in descending order of Expiration Date. They may
 also be sorted in ascending order or by Supplier or Lot Number by clicking on
@@ -20,15 +20,7 @@ the column title. You may select as many as you wish, the number selected is
 displayed at the bottom of the screen as each panel is added to your database
 when you click Download Selected Lot(s).
 
-#
-
-#
-
-#
-
-#
-
-# Downloading Lots with Supplemental Typings
+### Downloading Lots with Supplemental Typings
 
 Immucor provides supplemental unconfirmed typings with some of their panels. You
 may download some or all of these by selecting the SUT box next to the lot
@@ -36,13 +28,15 @@ number when you are downloading. You will be given a choice of which typings you
 wish to see on your downloaded cells in a dialog box. Your choices will remain
 and may be changed or not the next time you download.
 
+![Download supplemental typings](images/download-suts.png)
+
 While the main panel data are verified electronically and do not require
 physical validation (with the current exception of Medion), the supplemental
 typings should be checked by donor to ensure that they have all been captured.
 Manual entry of any missing ones can be done by pulling up the donor on the
 Add/Edit screen.
 
-# Download Prompt Option
+### Download Prompt Option
 
 If you have selected _Prompt when downloading duplicate cells_ in the **System
 Options** menu, you will be notified whenever donors on the downloading panel
@@ -51,16 +45,16 @@ cells as out of stock, or delete them. If you attempt to delete a cell that has
 been stored as part of a saved panel, you will be advised to mark it out of
 stock instead.
 
-![](RackMultipart20201123-4-14tdxq2_html_58601d6cc4a31ebc.png)
+![Duplicate cells dialog](images/duplicate-cells.png)
 
-**Please note: If you are importing two identical panels (e.g. Quotient panels
+**Please note:** If you are importing two identical panels (e.g. Quotient panels
 that are the same except that one is enzyme treated), both panels will be marked
 out-of-stock if you have this feature turned on and chose the out-of-stock
-option.**
+option.
 
-# Searching and Selecting Cells
+## Searching and Selecting Cells
 
-## Search Pattern
+### Search Pattern
 
 When the program starts, the **Search** **screen** will automatically be
 displayed. A search pattern box allows you to enter a search pattern of the 28
@@ -75,7 +69,7 @@ As you search your database, you will notice color-coding that will highlight
 the search boxes change as you select and de-select cells. For an explanation of
 the color-coding function, see page 36.
 
-![](RackMultipart20201123-4-14tdxq2_html_f549a1ea35fc56e9.jpg)
+![Search cells](images/search-cells.jpg)
 
 If _search automatically when search criteria change_ is selected in the
 **Search** tab in the **System Options** menu, the search panel will immediately
@@ -87,7 +81,7 @@ found will display at the bottom of the screen. The number of cells currently
 selected will also display at the bottom of the screen and will update each time
 you select or deselect a cell.
 
-![](RackMultipart20201123-4-14tdxq2_html_1a872aa50e24793d.png)
+![Search results](images/search-results.png)
 
 To enter a search pattern, click the desired antigen buttons in the search
 pattern box. You may set the buttons to 0, +, or blank. A 0 or + setting means
@@ -101,7 +95,7 @@ Please note that if you are currently searching by a particular lot, your
 searches will only include cells from that lot until you have cleared that lot
 from your search criteria.
 
-![](RackMultipart20201123-4-14tdxq2_html_90cf0cf10417e5bb.jpg)
+![Search criteria](images/search-criteria.jpg)
 
 When you search, the inventory will be searched starting with the newest cells
 first, that is, in reverse expiration date order. All frozen cells have no
@@ -117,6 +111,8 @@ selected in **System Options**.
 To clear your current search criteria and start a new search, select **Clear
 Search Criteria**.
 
+![Search additional antigens](images/search-additional-antigens.jpg)
+
 To add additional antigens to the search pattern, check those desired in the
 Additional Antigens box by selecting the arrow on the right of the box to drop
 down a list of all the additional antigens in your database. You may select as
@@ -126,13 +122,13 @@ are selected. If you mouse over any of the selected antigens or the ellipsis, a
 box containing all of your selected antigens and their associated ISBT
 designations will appear.
 
-![](RackMultipart20201123-4-14tdxq2_html_4d41c3bbee54bb1.jpg)
+![ISBT numbers](images/isbt-numbers.png)
 
-Atable of ISBT designations used in Antigen Plus can be found in the Appendix.
+A table of ISBT designations used in Antigen Plus can be found in the Appendix.
 To remove Additional **Antigens** from the search display box, uncheck the
 item(s) in the Additional Antigens drop down list.
 
-## Selecting and Deselecting
+### Selecting and Deselecting
 
 To select a cell, check the **Select** box to the right of each cell. To select
 all cells in your current search, click **Select ALL Matches**. Cells that are
@@ -143,7 +139,7 @@ Worksheet at the bottom of your search screen. When duplicate cells are
 selected, they will be highlighted in yellow so that they may be easily
 de-selected.
 
-![](RackMultipart20201123-4-14tdxq2_html_5f3ed889bc83c383.png)
+![Selecting search results](images/search-results-select.png)
 
 Your currently selected cells will remain selected until you uncheck the
 **Select** box next to each cell or until you click **Clear All Selected
@@ -151,9 +147,9 @@ Cells**. If you choose to clear all selected cells and you have not saved your
 current work, a warning box will appear asking if you would like to either
 **Save** or **Discard** your current selected cells panel.
 
-![](RackMultipart20201123-4-14tdxq2_html_c0335e729d0a9d1b.png)
+![Save panel changes](images/save-panel-changes.png)
 
-## Selecting Expired Cells
+### Selecting Expired Cells
 
 Whenever you select a cell (or cells) with an expiration date that has passed, a
 dialog box will appear allowing you to select that cell (or cells) to enter the
@@ -163,11 +159,11 @@ antigens on that cell and those results will be maintained with the date of the
 test and the name of the tester. You may opt out of this process by selecting
 **Close** and the cell will still be selected.
 
-![](RackMultipart20201123-4-14tdxq2_html_a8038e40d63d71a2.png)
+![Review selected cells](images/review-selected-cells.png)
 
 # Antigen Order for Selected Cells
 
-![](RackMultipart20201123-4-14tdxq2_html_c3c1ca8fd5c7833.png)
+![Antigen display order](images/system-options-display-order.png)
 
 The antigen buttons are displayed in a standard default order of blood groups:
 Rh-Hr, Kell, Duffy, Kidd, Lewis, P, MN, Lutheran, and Sex-Linked. Some
@@ -190,33 +186,39 @@ information, see page 50.
 
 Option 1: BioTest
 
-![](RackMultipart20201123-4-14tdxq2_html_f10aa8e8a041c601.jpg)
+![BioTest](images/display-order-biotest.jpg)
 
-O ![](RackMultipart20201123-4-14tdxq2_html_91caf2e3c31fe3de.jpg) ption 2:
-Immucor
+Option 2: Immucor
+
+![Immucor](images/display-order-immucor.jpg)
 
 Option 3: Medion/Grifols
 
-![](RackMultipart20201123-4-14tdxq2_html_58f396d6931fcbac.jpg)
+![Medion](images/display-order-medion.jpg)
 
-![](RackMultipart20201123-4-14tdxq2_html_8920ba03a21bd862.jpg) Option 4: Ortho
+Option 4: Ortho
 
-O ![](RackMultipart20201123-4-14tdxq2_html_3974d03c400eed98.jpg) ption 5:
-Quotient
+![Ortho](images/display-order-ortho.jpg)
+
+Option 5: Quotient
+
+![Quotient](images/display-order-quotient.jpg)
 
 Option 6: Red Cross Preferred
 
-![](RackMultipart20201123-4-14tdxq2_html_80ce2fd9dd509ce7.jpg)
+![Red Cross](images/display-order-red-cross.jpg)
 
 Option 7: Standard (Johns Hopkins) Option
 
-![](RackMultipart20201123-4-14tdxq2_html_ebdc7ce94150c19d.jpg)
+![Standard](images/display-order-standard.jpg)
 
 Option 8: Bio-Rad
 
-![](RackMultipart20201123-4-14tdxq2_html_725569cb3e4e3144.png)
+![Bio-Rad](images/display-order-biorad.png)
 
 Option 9: Grifols
+
+![Grifols](images/display-order-grifols.png)
 
 # Selected Cells Panels
 

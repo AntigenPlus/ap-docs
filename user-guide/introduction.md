@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 1
 ---
 
-# Introduction
+## Introduction
 
 Antigen Plus is a red blood cell inventory and antigen search program that
 allows the user to enter test results that are automatically evaluated to assist
@@ -35,8 +35,8 @@ The data stored for each donor are:
 
 Data that can be stored for a patient are:
 
-- ID number \*
-- Name (First\*, Middle, Last\*)
+- ID number[^req]
+- Name (First[^req], Middle, Last[^req])
 - Date of birth
 - Short note (held in the patient record only)
 - Description on a saved panel
@@ -45,7 +45,7 @@ Data that can be stored for a patient are:
 - Conclusion Notes to appear also on the screen or on saved panels
 - Specimen Numbers
 
-\*required fields
+[^req]: required fields
 
 Data that can be stored on a saved panel are:
 

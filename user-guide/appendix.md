@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 15
 ---
 
-# Appendix
+## Appendix
 
 Guide to ISBT numbers used in Antigen Plus
 

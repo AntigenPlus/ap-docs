@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 13
 ---
 
-# Additional Information About Antigen Plus
+## Additional Information About Antigen Plus
 
 Antigen Plus is written using Microsoft Visual Studio and SQL Server. It was
 designed for the reference laboratory by Michael W. Lankiewicz, M.D., a

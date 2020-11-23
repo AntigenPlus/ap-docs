@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 8
 ---
 
-# Complete Rule-Out Protocols
+## Complete Rule-Out Protocols
 
 - Rule out D when any cell with D+ has negative reaction
 
