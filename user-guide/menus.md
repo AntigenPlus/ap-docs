@@ -5,9 +5,9 @@ parent: User Guide
 nav_order: 5
 ---
 
-## Menus
+# Menus
 
-### File Menu
+## File Menu
 
 ![File menu](images/file-menu.png)
 
@@ -55,17 +55,17 @@ your system. The data may be easily retrieved by Antigen Plus using SQL Server
 Management Studio. Instructions can be found in &quot;Antigen Plus 8.5
 Installation and Configuration.&quot;
 
-### Options Menu
+## Options Menu
 
 ![Options menu](images/options-menu.jpg)
 
-#### System Options
+### System Options
 
 The System Options menu allows you to set and/or change general default
 parameters for using Antigen Plus in your lab. There are three tabs on this
 menu—one each for General, Search, and Printing options.
 
-##### General Tab
+#### General Tab
 
 ![General tab](images/system-options-general.png)
 
@@ -119,7 +119,7 @@ any work-up without entering a specimen ID number. Only administrators may set
 this option. For more information about adding specimen ID numbers, see page
 34??.
 
-##### Search Tab
+#### Search Tab
 
 ![Search tab](images/system-options-search.jpg)
 
@@ -156,7 +156,7 @@ inventory of fewer than 200 cells may find it more convenient to search in this
 manner as it eliminates the necessity of hitting the search button to initiate a
 search.
 
-##### Printing Tab
+#### Printing Tab
 
 ![Printing tab](images/system-options-printing.png)
 
@@ -198,7 +198,7 @@ the first column of a printed Selected Cells Panel –the selection order number
 and any out of date or frozen designation will appear on the screen but not on
 the printout to allow space for manual notes.
 
-#### Customize Results Columns
+### Customize Results Columns
 
 ![Customize result columns](images/customize-result-columns.png)
 
@@ -233,7 +233,7 @@ will appear anytime a user opens a Results Worksheet _unless_ the user is
 importing results from a blood analyzer machine. In this case only the blood
 analyzer result column will appear, and other columns may be added manually.
 
-#### Rare Cell Inventory
+### Rare Cell Inventory
 
 ![Rare cell inventory window](images/rare-cell-inventory-window.png)
 ![Rare cell inventory printout](images/rare-cell-inventory-print.png)
@@ -245,12 +245,12 @@ Since BioTest has added Coltons and Diegos to their standard array and Quotient
 has added Wra, these additional antigens will not appear on the rare cell
 inventory list but can be enumerated by searching for them on the Search screen.
 
-#### Analyzer Connections
+### Analyzer Connections
 
 This option allows you to view and manage your blood analyzer machine
 connections. For more information on analyzer connections, see page 38.
 
-#### Exclusion Criteria
+### Exclusion Criteria
 
 The default exclusion criteria in Antigen Plus are taken from the AABB Technical
 Manual. In many cases, laboratories may wish to set stricter criteria to
@@ -277,11 +277,11 @@ the top of the screen.
 To restore your exclusion criteria back to the default AABB standards, select
 **Restore Defaults.**
 
-### View Menu
+## View Menu
 
 ![View menu](images/view-menu.png)
 
-#### Donor Note
+### Donor Note
 
 When a donor is selected on the Search screen or Add/Edit screen, the donor note
 option allows a note to be inserted that will stay with that donor number
@@ -294,7 +294,7 @@ screens.
 
 ![Donor note display](images/donor-note-display.png)
 
-#### Patients
+### Patients
 
 The Patients menu opens the **Maintain Patients** screen where patient
 information may be viewed and edited.
@@ -311,7 +311,7 @@ and time of the edit.
 For more on working with patient information in Antigen Plus, see _Patient
 Information_ on page 30??.
 
-#### Suppliers
+### Suppliers
 
 This option allows entry of a supplier other than the currently licensed
 commercial red cell manufacturers. This is primarily for reference laboratories
@@ -320,7 +320,7 @@ available antigen arrays may be associated with the new supplier.
 
 ![Add supplier window](images/add-supplier.png)
 
-### Lot Menu
+## Lot Menu
 
 ![Lot menu](images/lot-menu.png)
 
@@ -350,7 +350,7 @@ searchable inventory while saving any work that has been done with it.
 
 ![Delete lot dialog](images/delete-lot-dialog.png)
 
-### Panel Menu
+## Panel Menu
 
 ![Panel menu](images/panel-menu.jpg)
 
@@ -360,7 +360,7 @@ in Antigen Plus.
 If those options are unavailable (i.e. there are no cells selected), they will
 be greyed out on the screen.
 
-#### Load Saved Panel
+### Load Saved Panel
 
 This option opens up a table of all saved work-ups (any selected panel that has
 been saved with or without test results).
@@ -384,7 +384,7 @@ also automatically swap out any out-of-date or out-of-stock cells with fresh
 cells in your inventory that have antigen profiles that are as close as possible
 to the original.
 
-##### Merging panels
+#### Merging panels
 
 Two or more panels can be merged in a work-up for a single patient. The primary
 use of this feature is to be able to merge a screen and a full panel that are
@@ -395,14 +395,14 @@ panels will appear.
 
 ![Merging panels](images/load-saved-panel-merge.png)
 
-#### Import Analyzer Results
+### Import Analyzer Results
 
 This menu allows the importing of results from a blood analyzer machine. For
 more information about importing blood analyzer results, see page 39.
 
 ![Import analyzer results window](images/import-analyzer-results.png)
 
-#### Save the Selected Cells Panel
+### Save the Selected Cells Panel
 
 You may save a Selected Panel (with any results included) from this screen. As
 this can be done more directly from the Selected Cells Worksheet or Results
@@ -410,32 +410,32 @@ Worksheet, the function is here so that you may remember to save current work
 when you are loading another panel (there will also be a warning when you are
 loading a new panel that one is already in use).
 
-#### Clear Selected Cells Panel
+### Clear Selected Cells Panel
 
 Selecting **Clear Selected Cells Panel** will clear all of the currently
 selected cells. You will be prompted to either save or discard your current
 work.
 
-#### Selected Cells Worksheet and Results Worksheet
+### Selected Cells Worksheet and Results Worksheet
 
 Selecting Selected Cells Worksheet or Results Worksheet will call up the current
 work and open those screens. For more information about Selected Cells and
 Results Worksheets, see Operation on page 19.
 
-#### Print Blank Antigram
+### Print Blank Antigram
 
 Prints a blank worksheet.
 
-### User Menu
+## User Menu
 
 ![User menu](images/user-menu.png)
 
-#### Change Password
+### Change Password
 
 Any user can change his or her password. That change can be overridden by an
 administrator changing that user&#39;s password.
 
-#### Account Settings
+### Account Settings
 
 ![Account settings](images/account-settings.png)
 
@@ -445,14 +445,14 @@ accounts. A new user may not log in until an administrator has added him or her
 in the **Maintain Accounts** table or Windows Active directory is used to
 authenticate new users (see Authenticating Users on page?? )
 
-#### Switch User
+### Switch User
 
 ![Switch user](images/switch-user.png)
 
 Logs the current user out and asks for a username and password to continue. A
 new database may also be selected from this screen.
 
-#### Maintain Accounts
+### Maintain Accounts
 
 This menu is available only to administrators and is used for managing user
 access to Antigen Plus. If **Automatically create accounts from Windows Login**
@@ -498,7 +498,7 @@ Read only
 
 Each user may change his or her own password.
 
-#### View User Activity Log
+### View User Activity Log
 
 An administrator will have this feature enabled and selecting it will call up a
 log of all user log-ins and all activity involving patient information. This log
@@ -506,7 +506,7 @@ is exportable in a csv format.
 
 ![User activity log](images/user-activity-log.png)
 
-#### Security Settings for Time Outs and Username/Password Mode
+### Security Settings for Time Outs and Username/Password Mode
 
 ![Security settings](images/security-settings.png)
 
@@ -521,7 +521,7 @@ The other options are for manual password configurations and are activated by
 checking the boxes on the left of the options and setting the desired parameters
 to the right.
 
-### Help Menu
+## Help Menu
 
 ![Help menu](images/help-menu.png)
 

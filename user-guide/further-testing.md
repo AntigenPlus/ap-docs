@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 11
 ---
 
-## Technical Information for Further Testing
+# Technical Information for Further Testing
 
 1.  If all cells in the first panel are reactive and the autocontrol is
     negative, try chemically treated screen cells and see if this alters the
@@ -38,19 +38,15 @@ nav_order: 11
        plasma, select a panel of red cells based on one example of each antigen
        to be excluded per cell.
 
-       EXAMPLE: FOR THE PATIENT LISTED ABOVE THE SELECTION CRITERIA
+       EXAMPLE: For the patient listed above the selection criteria would be:
 
-       WOULD BE:
-
-       CELL 1 E+, K-, Fy(b-), Jk(a-), S-.
-
-       CELL 2 E-, K+, Fy(b-), Jk(a-), S-.
-
-       CELL 3 E-, K-, Fy(b+), Jk(a-), S-.
-
-       CELL 4 E-, K-, Fy(b-), Jk(a+), S-.
-
-       CELL 5 E-, K-, Fy(b-), Jk(a-), S+.
+       Cell | Antigens
+       -----|---------
+       1|E+, K-, Fy(b-), Jk(a-), S-
+       2|E-, K+, Fy(b-), Jk(a-), S-
+       3|E-, K-, Fy(b+), Jk(a-), S-
+       4|E-, K-, Fy(b-), Jk(a+), S-
+       5|E-, K-, Fy(b-), Jk(a-), S+
 
        This will confirm or exclude which antibody(ies) to the common antigens
        the patient has formed and what is left to form in the future.

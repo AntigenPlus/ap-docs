@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 13
 ---
 
-## Additional Information About Antigen Plus
+# Additional Information About Antigen Plus
 
 Antigen Plus is written using Microsoft Visual Studio and SQL Server. It was
 designed for the reference laboratory by Michael W. Lankiewicz, M.D., a
@@ -14,7 +14,7 @@ searching and drudgery; and originally programmed by Peter Rowny, a blood donor,
 with additional improvements for the hospital transfusion service designed by
 Dawn M. Rumsey, ART (CSMLS) BB(ASCP)CM.
 
-COPYING TEXT FROM THE SCREEN
+## Copying Text from the Screen
 
 The text in the Full description box on the Save and Load panel screens and the
 text in the Help screens can be copied into another application by highlighting
@@ -25,7 +25,7 @@ be copied. The text will be highlighted. Release the mouse button and press the
 text will then be copied to the Windows Clipboard and can be copied into any
 Windows application that has a Paste function.
 
-COPYING TEXT TO THE FULL DESCRIPTION BOX
+## Copying Text to the Full Description Box
 
 Text from the Windows clipboard may be copied into the Full description box on
 the Save screen. When the cursor is flashing in that box press the

@@ -25,6 +25,7 @@
 		"prettier.proseWrap": "always",
 		"jekyll-run.commandLineArguments": "--livereload --config _config.yml,_serve.yml --trace",
 		"markdownlint.config": {
+			"MD025": false,
 			"MD030": false
 		}
 	},

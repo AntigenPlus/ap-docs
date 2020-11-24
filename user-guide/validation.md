@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 2
 ---
 
-## Validation
+# Validation
 
 Antigen Plus provides a template for validation of the software based on the
 [NAACLS](https://www.naacls.org) format on its website

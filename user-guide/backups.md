@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 12
 ---
 
-## Backing Up
+# Backing Up
 
 If you use Cloud storage for Antigen Plus, your database (s) is backed up on our
 Cloud server hosted by Microsoft Azure™ and can be restored at any moment going

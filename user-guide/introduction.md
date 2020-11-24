@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 1
 ---
 
-## Introduction
+# Introduction
 
 Antigen Plus is a red blood cell inventory and antigen search program that
 allows the user to enter test results that are automatically evaluated to assist

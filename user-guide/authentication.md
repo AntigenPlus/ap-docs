@@ -5,9 +5,9 @@ parent: User Guide
 nav_order: 6
 ---
 
-## Authenticating Users
+# Authenticating Users
 
-### User access
+## User access
 
 After database access is granted, Antigen Plus authenticates and authorizes the
 user within the software itself. Antigen Plus provides two different methods for

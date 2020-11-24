@@ -5,14 +5,14 @@ parent: User Guide
 nav_order: 3
 ---
 
-## Installation
+# Installation
 
 Antigen Plus will supply your IT department with the installer file and
 documentation necessary to deploy the program to an application server or to
 individual workstations. once you are set up (these procedures are covered in
 our Installation Guides that comes with the installer).
 
-### For Lab Administrators Only
+## For Lab Administrators Only
 
 First Use and Set-up:
 
