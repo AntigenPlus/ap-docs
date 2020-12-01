@@ -1,0 +1,11 @@
+---
+layout: post
+title: Version 8.5.x
+date: YYYY-MM-DD
+---
+
+- Create one bullet point for each change.
+
+- [#1394](https://github.com/AntigenPlus/antigen-plus/issues/1394): If the
+  change is related to a GitHub issue, provide the issue number and link it to
+  the issue number. Only staff will be able to see the GitHub issue.
