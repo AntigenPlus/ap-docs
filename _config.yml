@@ -22,3 +22,4 @@ search.preview_words_before: 5
 # Maximum amount of words to display after a matched word in the preview
 # Default: 10
 search.preview_words_after: 10
+logo: "logo.gif"
