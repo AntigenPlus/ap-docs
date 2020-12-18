@@ -13,7 +13,7 @@ changes:
     description: Present an error message if a user attempts to save a panel containing cells that have been deleted by another user.
   - issues: [1192, 1193]
     tags: [bugfix]
-    parent: 8.5.27
+    since: 8.5.27
     description: FIx a crash introduced in 8.5.27 when deselecting a cell.
   - issues: [1189]
     tags: [improvement, ui]

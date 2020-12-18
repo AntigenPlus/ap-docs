@@ -33,7 +33,6 @@ module Jekyll
                 return nil
             end
             change['issues'] = change['issues'].map { |c| expand_issue(c) }.compact
-            puts change['parent']
             return change
         end
 

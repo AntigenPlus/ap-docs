@@ -1,0 +1,11 @@
+version: 8.5.17
+date: 2018-12-29
+commit: 46b0795a5aedef8275d7fdd31c4dd4aff107cd8f
+changes:
+  - issues: [1133]
+    tags: [bugfix]
+    since: 8.5.16
+    description: Fix error introduced in 8.5.16 initializing a new database on Azure.
+  - tags: [bugfix]
+    since: 8.5.16
+    description: Fix installer problem in 8.5.16 where one assembly was referencing the wrong version of another.

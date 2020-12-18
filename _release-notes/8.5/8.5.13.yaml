@@ -1,0 +1,7 @@
+version: 8.5.13
+date: 2018-10-26
+commit: d7227d32434b87a90a7c7bb5bf5dbf93f56d2078
+changes:
+  - issues: [1123]
+    tags: [bugfix, ui]
+    description: Fixed problem where some buttons would appear offscreen in the Maintain Accounts window when Windows font scaling was set > 100%.

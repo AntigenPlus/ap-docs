@@ -1,0 +1,7 @@
+version: 8.5.25
+date: 2019-05-03
+commit: 00fe922034d68bc9a883b4c4145e846c8d52a41c
+changes:
+  - issues: [1174]
+    tags: [improvement, ui]
+    description: Update display orders for Immucor and Medion

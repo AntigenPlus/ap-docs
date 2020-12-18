@@ -5,4 +5,4 @@ changes:
   - description: Fix error introduced in 8.5.46 where blood analyzer results from Vision and Neo could not be imported due to a logic error in the user interface.
     tags: [bugfix]
     issues: [1395]
-    parent: 8.5.46
+    since: 8.5.46

@@ -1,0 +1,8 @@
+version: 8.5.8
+date: 2018-08-23
+commit: 9072f5b8796910edf0c158866989973e4db5938f
+changes:
+  - issues: [1098]
+    tags: [bugfix]
+    since: 8.5.7
+    description: Fix a crash introduced in 8.5.7 where searching for an expired lot and then clicking the Select All button would crash as the cell testing window was displayed.

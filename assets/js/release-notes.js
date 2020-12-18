@@ -42,9 +42,9 @@ function updateOldVersion() {
 
     var changes = document.getElementsByClassName('change');
     for (var i = 0; i < changes.length; i++) {
-        var parent = changes[i].dataset.parent;
-        if (parent == '') continue;
-        var n = versionCompare(oldVersion, changes[i].dataset.parent, { zeroExtend: true });
+        var since = changes[i].dataset.since;
+        if (since == '') continue;
+        var n = versionCompare(oldVersion, since, { zeroExtend: true });
         if (n < 0) {
             changes[i].classList.remove('shown');
         }

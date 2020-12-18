@@ -5,4 +5,4 @@ changes:
   - description: Fix export of Vision VRB analyzer results
     tags: [internal, bugfix]
     issues: [1398]
-    parent: 8.5.50
+    since: 8.5.50

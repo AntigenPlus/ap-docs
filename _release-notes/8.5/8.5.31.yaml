@@ -16,7 +16,7 @@ changes:
     description: Fix crash viewing Maintain Patients window after database initialization. The patient information encryption key is now correctly initialized on all code paths.
   - issues: [1206]
     tags: [bugfix]
-    parent: 8.5.30
+    since: 8.5.30
     description: Fix crash introduced in 8.5.30 after failing to load a deleted panel iteration.
   - issues: [1203]
     tags: [bugfix]

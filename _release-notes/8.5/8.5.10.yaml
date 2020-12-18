@@ -1,0 +1,7 @@
+version: 8.5.10
+date: 2018-09-04
+commit: 7a93a51b7ae9004aea3da55dceb0144d40fbba48
+changes:
+  - issues: [1109]
+    tags: [bugfix]
+    description: Fix crash in the Maintain Accounts window when adding a new user while a search is active.

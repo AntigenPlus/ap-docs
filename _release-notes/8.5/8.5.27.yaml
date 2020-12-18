@@ -2,15 +2,6 @@ version: 8.5.27
 date: 2019-05-09
 commit: f8b3d9a9a0a918407a36ea5cc7557ebe5ea80df3
 changes:
-  - issues: [1174]
-    tags: [improvement, ui]
-    description: Update display orders for Immucor and Medion
-  - issues: [1172]
-    tags: [improvement, ui]
-    description: Add safeguards for cell editing. When saving cell information in the Add/Edit tab, Antigen Plus will warn you if you are about to perform a questionable action, such as modifying commercial worksheet data or overwriting one cell’s data with another.
-  - issues: [1173]
-    tags: [improvement]
-    description: Add user activity logging when a cell is added, edited, replaced, or deleted.
   - issues: [1178]
     tags: [bugfix]
     description: Duplicating a panel containing a blood analyzer result column no longer results in an uneditable column.

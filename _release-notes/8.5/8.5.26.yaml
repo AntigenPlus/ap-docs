@@ -1,0 +1,13 @@
+version: 8.5.26
+date: 2019-05-07
+commit: fcf4cfb547acd2681b80252d07612afe0371e8c9
+changes:
+  - issues: [1172]
+    tags: [improvement, ui]
+    description: Add safeguards for cell editing. When saving cell information in the Add/Edit tab, Antigen Plus will warn you if you are about to perform a questionable action, such as modifying commercial worksheet data or overwriting one cell’s data with another.
+  - issues: [1173]
+    tags: [improvement]
+    description: Add user activity logging when a cell is added, edited, replaced, or deleted.
+  - issues: [1181]
+    tags: [internal, feature]
+    description: Make the Debug menu available when the user has the proper CustomerSettings.json file. This allows you to save .PNL files and create random test data.

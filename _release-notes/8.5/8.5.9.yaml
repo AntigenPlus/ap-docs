@@ -1,0 +1,22 @@
+version: 8.5.9
+date: 2018-08-27
+commit: 300d6918a4c9d73c95ba78be78b352ff24929680
+changes:
+  - issues: [1103]
+    tags: [improvement, ui]
+    description: When searching to select a patient, do not highlight any found patient until the user explicitly clicks on it with the mouse.
+  - issues: [1107]
+    tags: [improvement, ui]
+    description: Make the names of the Selected Cells/Panel and Result Worksheet windows more consistent.
+  - issues: [1102]
+    tags: [feature]
+    description: Add an Open Worksheet button to the Search tab of the main window.
+  - issues: [1106]
+    tags: [improvement]
+    description: Remove unnecessary whitespace at the top of the left column header of printouts.
+  - issues: [1104]
+    tags: [improvement]
+    description: Don’t print “Test Results Key” if there are no column descriptions.
+  - issues: [1100]
+    tags: [improvement]
+    description: Add whitespace above result column headers in both Selected Panel and Results Worksheet printouts.

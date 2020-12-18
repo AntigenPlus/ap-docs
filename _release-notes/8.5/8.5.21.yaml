@@ -1,0 +1,8 @@
+version: 8.5.21
+date: 2019-04-03
+commit: 3c574daf1b888c92ef041e422fe84d7b113b5ce8
+changes:
+  - issues: [1016]
+    tags: [improvement]
+    description: Improve IH-1000 support to include additional antibody screen and identification panels. If the correct lot is already downloaded, importing the analyzer results will now select the lot automatically.
+  

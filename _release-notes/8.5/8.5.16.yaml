@@ -1,0 +1,9 @@
+version: 8.5.16
+date: 2018-12-05
+commit: 0b285a8340d23e334b5bc880c84bc280f27eda3e
+changes:
+  - issues: [1129]
+    tags: [bugfix, internal]
+    description: Prevent Entity Framework from attempting to connect to master database on Azure, triggering false security alerts.
+  - tags: [internal]
+    description: Reorganize internal project structure to simplify maintenance.

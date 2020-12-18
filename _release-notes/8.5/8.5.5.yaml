@@ -1,0 +1,10 @@
+version: 8.5.5
+date: 2018-07-02
+commit: f66c135aca17a369936806a019f18ef429b12a3b
+changes:
+  - issues: [1054]
+    tags: [bugfix]
+    description: Fixed error while enabling encryption when switching to an empty database.
+  - issues: [1068]
+    tags: [bugfix]
+    description: Fixed problem where encrypted data would not decrypt when application was next launched.

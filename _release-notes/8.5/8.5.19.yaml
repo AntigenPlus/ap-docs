@@ -1,0 +1,13 @@
+version: 8.5.19
+date: 2019-02-18
+commit: 1f494a3dbf645a182933bb3d3fffd18acbb7f76c
+changes:
+  - issues: [1137, 1148, 1147, 1144, 1143, 1142, 1139]
+    tags: [improvement]
+    description: 'Address performance problems with large databases, specifically: <ul><li>The Windows Account field in the Account Settings window</li><li>Search, adding a patient, and selecting a patient in the Select Patient window</li><li>Initial display and searching in the Maintain Patients window</li><li>Saving panels in the Save Panel window</li><li>Initial display and searching in the Load Saved Panel window</li><li>Initial display and searching in the Maintain Accounts window</li></ul>'
+  - issues: [1141]
+    tags: [bugfix]
+    description: Correct problem where the Maintain Accounts window would incorrectly disable the Delete button after a search.
+  - issues: [1140]
+    tags: [bugfix]
+    description: Correct a situation where the Account Settings window could partially select text on second use.
