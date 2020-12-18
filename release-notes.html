@@ -1,0 +1,25 @@
+---
+layout: default
+title: Release notes
+---
+
+<h1>Antigen Plus release notes</h1>
+
+<script src="assets/js/release-notes.js"></script>
+
+<div class='filters' style="text-align: center;">
+    <div class='filters-inset'>
+        <p>
+            <label><input type="checkbox" id='features' name='features' checked onchange="updateCategory('features')"> New features</label>
+            <label><input type="checkbox" id='improvements' name='improvements' checked onchange="updateCategory('improvements')"> Improvements</label>
+            <label><input type="checkbox" id='bugfixes' name='bugfixes' checked onchange="updateCategory('bugfixes')"> Bug fixes</label>
+        </p>
+
+        <p>
+            <label>Since version: <input type='text' id='oldVersion' name='oldVersion' size="8" placeholder="8.5.0" oninput="updateOldVersion()"></label>
+        </p>
+    </div>
+</div>
+
+{% for release in site.data['releases'] %}
+{% include release.html version=version %} {% endfor %}

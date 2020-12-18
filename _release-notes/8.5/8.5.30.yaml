@@ -1,0 +1,8 @@
+version: 8.5.30
+date: 2019-05-13
+commit: cc70a4f380d2c30463d2353dee5094aa8af1f94c
+changes:
+  - issues: [1197]
+    tags: [bugfix]
+    parent: 8.5.27
+    description: Fix bug introduced in 8.5.27 where loading a panel containing only an analyzer column would result in a panel with default columns.

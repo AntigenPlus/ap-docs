@@ -1,0 +1,10 @@
+version: 8.5.46
+date: 2020-09-30
+commit: 50c035c0325a287819756a2907774f14c248b41f
+changes:
+  - description: Enhance Erytra/Eflexis support to handle tests that involve an 11-cell panel and 4-cell extended panel in the same test. Included in this are enhancements to the Import analyzer results dialog to show the test date, test code, and specimen number of the test being imported, and to allow selection of 2 different lot numbers
+    tags: [improvement]
+    issues: [1378]
+  - description: No longer log or send email for TaskCanceledExceptions during startup.
+    tags: [internal, improvement]
+    issues: [1168]

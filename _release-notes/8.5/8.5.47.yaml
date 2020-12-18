@@ -1,0 +1,7 @@
+version: 8.5.47
+date: 2020-10-05
+commit: cd2382a15c8c9fff2453b05166044a64058d0c2f
+changes:
+  - description: Ensure that WPF windows update properly when background actions complete. Prophylaxis based on issues in development of next version.
+    tags: [bugfix]
+    issues: [1379, 1380]

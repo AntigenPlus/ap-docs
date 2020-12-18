@@ -1,0 +1,51 @@
+<div class="release shown" data-version="{{release.version}}">
+  <h2>Version {{ release.version }}</h2>
+  <p class="release-date">{{ release.date | date: '%B %-d, %Y' }}</p>
+  {% if release.description %}
+  <p class="description">{{ release.description }}</p>
+  {% endif %}
+
+  {% assign total = release.features.size | plus: release.improvements.size | plus: release.bugfixes.size %}
+
+  {% if release.changes.size != total %}
+  <h1>INCORRECT TAGS</h1>
+  {% endif %}
+
+  {% if release.features.size > 0 %}
+  <div class="category features shown">
+  <h3>New features</h3>
+  <ul class="changes">
+    {% for change in release.features %} {% include change.html change=change %}
+    {% endfor %}
+  </ul>
+  </div>
+  {% endif %}
+
+  {% if release.improvements.size > 0 %}
+  <div class='category improvements shown'>
+  <h3>Improvements</h3>
+  <ul class="changes">
+    {% for change in release.improvements %} {% include change.html change=change %}
+    {% endfor %}
+  </ul>
+  </div>
+  {% endif %}
+
+  {% if release.bugfixes.size > 0 %}
+  <div class='category bugfixes shown'>
+  <h3>Bug fixes</h3>
+  <ul class="changes">
+    {% for change in release.bugfixes %} {% include change.html change=change %}
+    {% endfor %}
+  </ul>
+  </div>
+  {% endif %}
+
+  {% if release.changes.size == 0 %}
+  <div class='category other shown'>
+    <ul class="changes">
+      <li>No user-visible changes</li>
+    </ul>
+  </div>
+    {% endif %}
+</div>

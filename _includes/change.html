@@ -1,0 +1,1 @@
+<li class="change shown" data-parent="{{change.parent}}">{% if change.issues.size > 0 %}{{ change.issues | map: "html" | join: ", " }}: {% endif %}{{ change.description }}</li>

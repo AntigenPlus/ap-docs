@@ -1,0 +1,22 @@
+version: 8.5.43
+date: 2020-09-17
+commit: 8d2b87a3bd1b97675c5e7df06a0f88ca331cca25
+changes:
+  - description: Create stand-alone registration tool
+    tags: [feature]
+    issues: [1369]
+  - description: Fix bugfix where user activity log was failing to record loading of saved panels.
+    tags: [bugfix]
+    issues: [1372]
+  - description: Fix crash when deleting panel due to database reference in user activity log.
+    tags: [bugfix]
+    issues: [1371]
+  - description: Fix crash when deleting panel when a user has an unsaved panel that references the deleted panel.
+    tags: [bugfix]
+    issues: [1373]
+  - description: Fix crash when manually editing a cell to add an additional antigen that has also been added by another user.
+    tags: [bugfix]
+    issues: [1365]
+  - description: Back-port improved support for the Vision blood analyzer from 8.6 to 8.5
+    tags: [feature]
+    issues: [1376]

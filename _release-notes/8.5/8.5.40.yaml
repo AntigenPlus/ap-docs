@@ -1,0 +1,46 @@
+version: 8.5.40
+date: 2020-07-01
+commit: 9ddca025130473e8dacd7f5e98bfd266a5b02d72
+changes:
+  - description: Add support for Erytra/Eflexis blood analyzers from Grifols.
+    tags: [feature]
+    issues: [1355]
+  - description: Add ability to merge patients in the Maintain Patients window.
+    tags: [feature]
+    issues: [1358]
+  - description: Add basic support for mixed-field reaction types, which can be reported by Erytra/Efliexis blood analyzers. The panel evaluation algorithm treats these as positive reactions.
+    tags: [feature]
+    issues: [1359]
+  - description: Change algorithm that calculates orange rule-out highlights to assume that cells with test results will not be re-tested.
+    tags: [bugfix]
+    issues: [1347]
+  - issues: [1350]
+    tags: [feature, internal]
+    description: Silently report unsaved changes detected during shutdown back to the vendor for investigation.
+  - issues: [1349]
+    tags: [bugfix]
+    description: Ensure that any errors that occur while updating the database at startup do not later prevent work from being saved.
+  - issues: [1352]
+    tags: [bugfix]
+    description: Prevent the user from entering dates that are out of range and cannot be stored in the database.
+  - issues: [1340]
+    tags: [bugfix]
+    description: Allow the blood analyzer import function to use commercial lots that expired on the same day as the test.
+  - issues: [1356]
+    tags: [bugfix]
+    description: Fix a threading issue that could cause a wide range of difficult to reproduce errors, including "detached record" errors on quit.
+  - issues: [1357]
+    tags: [feature, internal]
+    description: Enhance crash logs to indicate if the error is displayed to the user, and if the error forces the application to quit.
+  - issues: [1344, 1185]
+    tags: [bugfix]
+    description: Fix an intermittent crash involving a disposed ObjectContext.
+  - issues: [1097]
+    tags: [bugfix, ui]
+    description: Fix the layout of the Security Settings window when the font size is set to 200%
+  - issues: [1074]
+    tags: [bugfix, ui]
+    description: Fix the layout of the error dialog when the font size is set to 200%
+  - issues: [1240]
+    tags: [bugfix]
+    description: Fix rare crash in the Selected Cells window when the cell for a panel cannot be found.

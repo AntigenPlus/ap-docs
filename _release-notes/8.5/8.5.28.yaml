@@ -1,0 +1,23 @@
+version: 8.5.28
+date: 2019-05-13
+commit: a593a7167238478f8483fa2819ba8cd081820ac5
+changes:
+  - issues: [1187]
+    tags: [improvement, ui]
+    description: Clarify warning message when the user edits a cell and saves it to a different lot.
+  - issues: [1188]
+    tags: [improvement, ui]
+    description: Do not show a warning message when deselecting a cell if there are no test results for that cell.
+  - issues: [1191]
+    tags: [improvement, ui]
+    description: Present an error message if a user attempts to save a panel containing cells that have been deleted by another user.
+  - issues: [1192, 1193]
+    tags: [bugfix]
+    parent: 8.5.27
+    description: FIx a crash introduced in 8.5.27 when deselecting a cell.
+  - issues: [1189]
+    tags: [improvement, ui]
+    description: Detect the case where 2 users edit the same panel at the same time. The second user to save the panel will get a message warning them that their work will supersede the other user’s work, although the first user's work will still be available as a prior iteration.
+  - issues: [1185]
+    tags: [bugfix]
+    description: Prevent a rare crash when loading a panel over another panel and the patient information for the previous panel had not yet been loaded by the UI.

@@ -1,0 +1,8 @@
+version: 8.5.32
+date: 2019-08-02
+commit: c072774aa949362615c9712109a76634a85661eb
+changes:
+  - issues: [1213]
+    tags: [bugfix, ui]
+    parent: 8.5.19
+    description: Fix bug introduced in 8.5.19 where the Conclusion antibodies column in the Maintain Patients window was always blank.

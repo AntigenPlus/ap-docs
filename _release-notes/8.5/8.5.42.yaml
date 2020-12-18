@@ -1,0 +1,7 @@
+version: 8.5.42
+date: 2020-07-28
+commit: 0659a0c66be94a691164269734fc19df4c0a084c
+changes:
+  - description: Add CustomerSettings.json setting to write low-level blood analyzer log
+    tags: [feature]
+    issues: [1368]
