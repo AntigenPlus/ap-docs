@@ -10,7 +10,7 @@
 		"editor.wordWrapColumn": 80,
 		"[markdown]": {
 			"editor.defaultFormatter": "esbenp.prettier-vscode",
-			"editor.formatOnSave": true
+			"editor.formatOnSave": false
 		},
 		"git.postCommitCommand": "sync",
 		"files.exclude": {
@@ -27,14 +27,19 @@
 			"MD030": false
 		},
 		"prettier.proseWrap": "always",
-		"jekyll-run.commandLineArguments": "--livereload --config _config.yml,_serve.yml --trace"
+		"jekyll-run.commandLineArguments": "--livereload --config _config.yml,_serve.yml --trace",
+		"markdownlint.config": {
+			"MD025": false,
+			"MD030": false
+		}
 	},
 	"extensions": {
 		"recommendations": [
 			"dedsec727.jekyll-run",
 			"esbenp.prettier-vscode",
 			"bierner.markdown-preview-github-styles",
-			"davidanson.vscode-markdownlint"
+			"davidanson.vscode-markdownlint",
+			"bierner.markdown-footnotes"
 		]
 	}
 }
