@@ -1,0 +1,10 @@
+version: 8.5.34
+date: 2019-10-15
+commit: 1cb2dc71ee1888ba84f5a6bfaa3b8be48d6a93ab
+changes:
+  - issues: [1223]
+    tags: [improvement, ui]
+    description: Prevent window from becoming wider when cells are deselected in the Selected Cells window.
+  - issues: [1267]
+    tags: [bugfix, ui]
+    description: Restore gray background in unevaluated columns of Results Worksheet window after row is selected and then de-selected.

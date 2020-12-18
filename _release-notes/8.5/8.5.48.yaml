@@ -1,0 +1,10 @@
+version: 8.5.48
+date: 2020-12-01
+commit: 6f896ee2fef80867e80467f6e195707f991d0f7d
+changes:
+  - description: Improve performance when entering test results on the Results Worksheet.
+    tags: [improvement]
+    issues: [1394]
+  - description: Do not send a crash log if the file CustomerSettings.json is missing.
+    tags: [internal, bugfix]
+    issues: [1391]

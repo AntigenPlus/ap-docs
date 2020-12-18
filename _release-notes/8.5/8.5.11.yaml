@@ -1,0 +1,28 @@
+version: 8.5.11
+date: 2018-09-25
+commit: b1fdbf423b24c7700510688203431162276b24d6
+changes:
+  - issues: [1111]
+    tags: [bugfix]
+    description: Update SQL libraries to prevent compatibility level error when backing up database.
+  - issues: [1112]
+    tags: [feature]
+    description: Allow a customer to disable all PHI entry by creating a CustomerSettings.json file.
+  - issues: [1110]
+    tags: [feature]
+    description: Add conclusion antibodies column to Maintain Patients screen.
+  - issues: [1108]
+    tags: [bugfix, ui]
+    description: Make splash screen taller so that progress messages aren’t truncated.
+  - issues: [1114]
+    tags: [bugfix, ui]
+    description: Fix bug where Add & Cancel buttons were not visible in the Add Supplier screen when font size was 200%.
+  - issues: [1115]
+    tags: [bugfix]
+    description: Prevent crash in the Maintain Suppliers screen when clicking the Delete button when there are no suppliers.
+  - issues: [1116]
+    tags: [bugfix]
+    description: Update database to prevent crash when attempting to edit conclusion antibodies.
+  - issues: [1117]
+    tags: [bugfix]
+    description: Fix crash when modifying the cells in a panel while the results worksheet is open and red/green highlights are visible.

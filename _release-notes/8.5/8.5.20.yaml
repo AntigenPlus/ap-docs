@@ -1,0 +1,10 @@
+version: 8.5.20
+date: 2019-03-19
+commit: 4d4066fb193936dc37e37b7c72d4adac0d0fe218
+changes:
+  - issues: [1152]
+    tags: [bugfix]
+    description: Antigen Plus no longer crashes if the same panel is deleted from two different workstations. Instead, the second user gets an error message and can continue using the software.
+  - issues: [1153]
+    tags: [bugfix]
+    description: Antigen Plus no longer loses your changes if the same user is added in the Maintain Accounts window from two different workstations. The application now refreshes the window with updated user information and allows you to re-check your changes.

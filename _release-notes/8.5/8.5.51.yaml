@@ -1,0 +1,8 @@
+﻿version: 8.5.51
+date: 2020-12-13
+commit: ed3c7d138981d0062a7e2a708300a77a87820d42
+changes:
+  - description: Fix export of Vision VRB analyzer results
+    tags: [internal, bugfix]
+    issues: [1398]
+    since: 8.5.50

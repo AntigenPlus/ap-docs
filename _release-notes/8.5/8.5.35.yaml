@@ -1,0 +1,31 @@
+version: 8.5.35
+date: 2019-11-05
+commit: 52dd2800e889aa1c9a8348d17c70e4f928e5b7f5
+changes:
+  - issues: [1239]
+    tags: [bugfix, ui]
+    description: Ensure that donor note search field is only visible when search options enable it.
+  - issues: [1240]
+    tags: [bugfix]
+    description: Fix rare crash in selected cells window when displaying suppliers & lot numbers that had been deleted by another user.
+  - issues: [1241]
+    tags: [improvement, ui]
+    description: Be smarter about reporting data grid errors to the user and to Antigen Plus.
+  - issues: [1276]
+    tags: [bugfix]
+    description: Prevent the background deletion of unsaved user panels from triggering Entity Framework errors during startup.
+  - issues: [1271]
+    tags: [improvement]
+    description: Catch error when Connections.config file has a typo.
+  - issues: [1272]
+    tags: [improvement]
+    description: Catch error when user can't connect to local database.
+  - issues: [1273]
+    tags: [improvement]
+    description: Catch error when firewall blocks access to cloud database.
+  - issues: [1275]
+    tags: [improvement]
+    description: Catch error when shortcut arguments are wrong.
+  - issues: [1274]
+    tags: [improvement]
+    description: Catch error when printer driver provides invalid handle.

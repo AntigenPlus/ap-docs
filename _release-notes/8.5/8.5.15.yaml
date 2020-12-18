@@ -1,0 +1,7 @@
+version: 8.5.15
+date: 2018-11-15
+commit: 638f25209521267075c66384da1e7bde619f7ec6
+changes:
+  - issues: [1128]
+    tags: [bugfix]
+    description: Corrected count in the optional “Total Negative Reactions to Heterozygous Donors” row for K/k, Kpa/Kpb, and Jsa/Jsb pairs where the first antigen is positive, the second is unknown, and the test reaction is negative.

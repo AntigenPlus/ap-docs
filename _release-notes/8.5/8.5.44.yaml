@@ -1,0 +1,7 @@
+version: 8.5.44
+date: 2020-09-17
+commit: 91eb8405d56d8b1946aca32417b49c841d572ac1
+changes:
+  - description: Fix bugfix where newly added/edited patients would display a date of birth that included the current time in the Maintain Patients window.
+    tags: [bugfix]
+    issues: [1377]

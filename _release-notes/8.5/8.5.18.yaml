@@ -1,0 +1,8 @@
+version: 8.5.18
+date: 2019-01-14
+commit: 70acefe77dec9b424c57b8a20a87336c20872921
+changes:
+  - issues: [1134]
+    tags: [bugfix]
+    since: 8.5.15
+    description: Fix bug introduced in 8.5.15 that caused errors trying to load previously defined analyzer connections.

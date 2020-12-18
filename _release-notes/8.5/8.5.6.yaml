@@ -1,0 +1,19 @@
+version: 8.5.6
+date: 2018-07-04
+commit: 72d949b447f9724bc46202ddcbd934e7db039faa
+changes:
+  - issues: [1062]
+    tags: [improvement]
+    description: Add code to upgrade patient information key for 8.0 customers upgrading to 8.5
+  - issues: [1069]
+    tags: [improvement]
+    description: Display the company name in the Select Database window
+  - issues: [1071]
+    tags: [improvement]
+    description: Skip the upgrade backup dialog if the database is stored on Azure, since Azure has continuous backups.
+  - issues: [1072]
+    tags: [bugfix]
+    description: Don’t allow read-only users to add patients to the database.
+  - issues: [1070]
+    tags: [bugfix, ui]
+    description: Fix clipped text in the database upgrade window.

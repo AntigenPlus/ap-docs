@@ -1,0 +1,13 @@
+version: 8.5.38
+date: 2020-02-25
+commit: eddc2dab7b17a023b185aadd5e0ae5e27291de86
+changes:
+  - issues: [1319]
+    tags: [improvement, ui]
+    description: Improve error message when a user attempts to open a newer database with an older incompatible version of Antigen Plus. The user is now asked if they would like to select a different database.
+  - issues: [1322]
+    tags: [bugfix]
+    description: Prevent crash if the selected printer has no defined paper sizes.
+  - issues: [1324]
+    tags: [improvement]
+    description: 'Revert change #1314 made in 8.5.37 to previous behavior. The user is once again allowed to change the current patient if the panel has not been saved. There is no prompt to clear test results or save the previous patient'

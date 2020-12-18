@@ -1,0 +1,16 @@
+version: 8.5.27
+date: 2019-05-09
+commit: f8b3d9a9a0a918407a36ea5cc7557ebe5ea80df3
+changes:
+  - issues: [1178]
+    tags: [bugfix]
+    description: Duplicating a panel containing a blood analyzer result column no longer results in an uneditable column.
+  - issues: [1180]
+    tags: [feature]
+    description: Added check boxes on the results worksheet to hide low-incidence and less clinically significant antigens from the evaluation text. If either of these boxes are checked, the evaluation text will include a warning that these antigens are hidden. Note that these checkboxes do not affect the worksheet and are cleared whenever the results worksheet is opened or a new panel is loaded.
+  - issues: [1183]
+    tags: [improvement, ui]
+    description: Antigen Plus will notify the user if someone else saved the same panel while they were editing it. Both versions of the panel are saved in the panel history.
+  - issues: [1184]
+    tags: [improvement, ui]
+    description: Antigen Plus will notify the user if someone else has deleted a cell that they have just selected for a panel.

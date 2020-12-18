@@ -1,0 +1,7 @@
+version: 8.5.37
+date: 2020-01-15
+commit: b17bb674fe7b0c212c991319da39bce329e77303
+changes:
+  - issues: [1314]
+    description: Changing the patient for a worksheet now clears any test results entered on that worksheet. A dialog box prompts you to save first if there are unsaved changes.
+    tags: [improvement]

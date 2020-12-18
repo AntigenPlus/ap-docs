@@ -1,0 +1,8 @@
+﻿version: 8.5.49
+date: 2020-12-9
+commit: c8b51bc58edaebcfb4b98452aee6a8106eb83800
+changes:
+  - description: Fix error introduced in 8.5.46 where blood analyzer results from Vision and Neo could not be imported due to a logic error in the user interface.
+    tags: [bugfix]
+    issues: [1395]
+    since: 8.5.46

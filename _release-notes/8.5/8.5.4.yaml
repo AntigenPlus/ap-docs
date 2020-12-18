@@ -1,0 +1,28 @@
+version: 8.5.4
+date: 2018-07-02
+commit: fd4a3dd936e5ac554e250d1f6c40cc2b3e6b64f3
+changes:
+  - issues: [1060]
+    tags: [bugfix]
+    description: The lot number is no longer modified when an existing cell is saved. This prevents errors when the lot number contains lowercase letters.
+  - issues: [1059]
+    tags: [bugfix]
+    description: The lot number is no longer editable in the Maintain Lots window.
+  - issues: [1061]
+    tags: [bugfix]
+    description: Antigen Plus now checks to make sure that a printer is installed before starting a printing operation. Errors during printing no longer cause the application to exit.
+  - issues: [1053]
+    tags: [improvement]
+    description: Downloaded and imported commercial lot data is now checked against the database. If the downloaded data matches an existing lot, that lot is updated and the user is notified of any panels containing test cells that were modified by the import. If the downloaded data has the same lot number as an existing lot, the user is prompted to enter a unique lot number for the new lot.
+  - issues: [1055]
+    tags: [improvement]
+    description: A progress window is now displayed while switching databases or users. The “Logout” menu item has been renamed to “Switch user…” to better reflect what happens if the operation is canceled.
+  - issues: [1056]
+    tags: [improvement]
+    description: The main window now displays the current database rather than the current display order. A redundant current user field in the Add/Edit tab was removed.
+  - issues: [1065]
+    tags: [improvement]
+    description: Moved the ability to import a company key using the command line from the main application to a separate utility named ImportCompanyKey.exe. Error reporting during import is much improved, and the user is warned if the company key is imported to the user’s private key store rather than the shared machine key store.
+  - issues: [1066]
+    tags: [internal]
+    description: Several third-party libraries that were only used in 8.0 have been removed from the installer.

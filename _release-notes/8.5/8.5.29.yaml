@@ -1,0 +1,10 @@
+version: 8.5.29
+date: 2019-05-13
+commit: 67e8e52db10c6df0dd2cf366259f4b4fe9c33f0e
+changes:
+  - issues: [1195]
+    tags: [improvement, ui]
+    description: Change the wording of the warning dialog when trying to save a panel containing deleted cells. The new wording adds the option of re-downloading the lot, and clarifies how to re-enter the cell manually.
+  - issues: [1194]
+    tags: [bugfix]
+    description: Added checks to prevent an invalid index when editing patient antibodies.

@@ -1,0 +1,55 @@
+version: 8.5.7
+date: 2018-08-21
+commit: 21e8407676f93c6635253f38f8fef2d3919d9bb9
+changes:
+  - issues: [1081]
+    tags: [feature]
+    description: Add pulldown menus to print preview windows to change printer and paper size. Remember the user’s choice of printer and paper size on a given workstation.
+  - issues: [1031]
+    tags: [bugfix]
+    description: Prevent the user from creating a result column without an abbreviation.
+  - issues: [1032, 1080]
+    tags: [bugfix]
+    description: Clear search results when deleting a cell in order to prevent a crash.
+  - issues: [1033]
+    tags: [improvement]
+    description: Generate unique names if multiple new users are added consecutively.
+  - issues: [1035]
+    tags: [bugfix]
+    description: Prevent deletion of user account if the user has created or edited patient info.
+  - issues: [1043]
+    tags: [improvement, ui]
+    description: Make selected cells window wide enough to prevent appearance of horizontal scrollbar.
+  - issues: [1093]
+    tags: [bugfix]
+    description: Make new panels honor the global check cell threshold set when customizing the default result columns.
+  - issues: [1086]
+    tags: [feature]
+    description: Add a check mark option to the check cell threshold in the Customize Result Columns window. When this is selected, check cell results are entered as ✓ or ✗. This setting affects new panels only.
+  - issues: [1085]
+    tags: [improvement]
+    description: Add a confirmation dialog when deselecting a cell in the current panel.
+  - issues: [1087]
+    tags: [improvement, ui]
+    description: Highlight the active row when entering results in the Results Worksheet.
+  - issues: [1083]
+    tags: [improvement, ui]
+    description: Adjust the window that appears when downloading SUT information so that Load all and Remove all cannot be chosen accidentally.
+  - issues: [1084]
+    tags: [feature]
+    description: Add printing option under System Options to print a date collected line in the header when printing a selected cells panel. This option is on by default.
+  - issues: [1088, 1089]
+    tags: [feature]
+    description: Add an option to print the automatic evaluation when the results worksheet is printed. This option is on by default. When it is off, the automatic evaluation text and rule outs are not printed, and the test result column descriptions are printed at the bottom of every page.
+  - issues: [1092]
+    tags: [improvement, ui]
+    description: When you click the mouse in the test result area of the Results Worksheet, the decision of whether to edit the main test result or the check cell result is now controlled by where you click, not by the results previously entered.
+  - issues: [1091]
+    tags: [improvement]
+    description: If the license for a database has expired, try to update the license at every launch, rather than waiting 24 hours to update the license.
+  - issues: [1076]
+    tags: [bugfix]
+    description: Fix a bug where if you switch users immediately after a database upgrade, the program attempts to upgrade the database a second time.
+  - issues: [1075]
+    tags: [improvement]
+    description: Use case-insensitive tests when comparing database names, so that selecting a database using command line arguments is more reliable.

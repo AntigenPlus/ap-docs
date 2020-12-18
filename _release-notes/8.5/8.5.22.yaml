@@ -1,0 +1,10 @@
+version: 8.5.22
+date: 2019-04-12
+commit: a20f769049524e79f0e8fbfe64fc1fb03f48c9d4
+changes:
+  - issues: [1164]
+    tags: [bugfix]
+    description: Corrected the order of cells when printing extended donor information from the Results Worksheet and the sort order is not “in order checked”.
+  - issues: [1165]
+    tags: [bugfix]
+    description: Fix problem where Canadian Blood Services could not search for Co(a), Co(b), Di(a), Di(b), and Wr(a) antigens in their converted data.

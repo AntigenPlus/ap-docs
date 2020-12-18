@@ -1,0 +1,10 @@
+﻿version: 8.5.50
+date: 2020-12-11
+commit: 9c988ba05f36c65d3f4b337bdd627ded5dbec2ed
+changes:
+  - description: Add ability to save a panel as a Vision analyzer import file for demos
+    tags: [internal, bugfix]
+    issues: [1396]
+  - issues: [1397]
+    tags: [bugfix]
+    description: Fix bug where if an admin user deleted their own account, Antigen Plus would crash trying to record the deleted user's actions in the user activity log. Antigen Plus will now record the actions using the deleted user's name rather than a direct reference to their user account.

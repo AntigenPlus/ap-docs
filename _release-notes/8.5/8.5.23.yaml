@@ -1,0 +1,25 @@
+version: 8.5.23
+date: 2019-04-23
+commit: 7ebe73153680f67067f5f8570fc7082924da67ea
+changes:
+  - issues: [1155]
+    tags: [bugfix]
+    description: When printing to paper that is too small to fit the required text, Antigen Plus will stop printing rather than crash. Printing is also limited to 100 pages.
+  - issues: [1162]
+    tags: [bugfix]
+    description: Fixed crash when deleting a user who exited Antigen Plus with unsaved work.
+  - issues: [1156]
+    tags: [bugfix]
+    description: Prevent the user from saving an analyzer connection with an empty name.
+  - issues: [1150]
+    tags: [internal]
+    description: Add error-handling code to try and track down detached object error when user is logging in.
+  - issues: [1154]
+    tags: [internal]
+    description: Improved crash logs to provide more detail when a crash occurs during startup, or when updating one window to reflect changes in another.
+  - issues: [1166]
+    tags: [bugfix]
+    description: Fixed possible crash when importing analyzer results.
+  - issues: [1167]
+    tags: [bugfix]
+    description: Fixed possible crash when editing an existing cell in the Add/Edit tab that was also being displayed elsewhere in Antigen Plus.

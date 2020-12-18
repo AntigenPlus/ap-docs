@@ -1,0 +1,7 @@
+version: 8.5.24
+date: 2019-05-01
+commit: 204e787677dbbc3fcb8d8f2bcd7a7d1f03970fc0
+changes:
+  - issues: [1177]
+    tags: [bugfix, internal]
+    description: Fix startup crash when there is a company key that is not registered on the server.

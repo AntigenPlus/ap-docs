@@ -1,0 +1,7 @@
+version: 8.5.39
+date: 2020-02-27
+commit: 0b3d8c140e272bff68bcea8b5b73204d9c26b661
+changes:
+  - description: Fix the warning message that appears when saving changes to commercial cell so that it lists the correct antigens.
+    tags: [bugfix, ui]
+    issues: [1326]

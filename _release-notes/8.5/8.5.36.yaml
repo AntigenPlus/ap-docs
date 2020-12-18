@@ -1,0 +1,10 @@
+version: 8.5.36
+date: 2019-12-07
+commit: 122e2489d194d6f72a86588519f5918ab4fe74cf
+changes:
+  - issues: [1278]
+    tags: [bugfix]
+    description: Handle rare case where users on two different workstations creating users with the same name could cause the second password change to crash the application. This now displays an appropriate error message and allows the user to continue.
+  - issues: [1292]
+    tags: [improvement]
+    description: Enhance the Import Analyzer Results window to only load the most recent 7 days of analyzer results initially. A new Load More button loads an additional 7 days of results, and a new status message shows how many results are loaded.

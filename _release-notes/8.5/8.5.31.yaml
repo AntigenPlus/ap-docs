@@ -1,0 +1,29 @@
+version: 8.5.31
+date: 2019-06-18
+commit: bfcd6a2c1e37404c0104377c619e758a02034bd3
+changes:
+  - issues: [1200]
+    tags: [bugfix]
+    description: Fix crash when double-clicking on column header in Import Analyzer Results window.
+  - issues: [1175]
+    tags: [bugfix]
+    description: Fix possible crash when clicking in table on Load Panels window.
+  - issues: [1199]
+    tags: [improvement, ui]
+    description: Improve error message when attempting to load a partially saved panel iteration that has been deleted.
+  - issues: [1201]
+    tags: [bugfix]
+    description: Fix crash viewing Maintain Patients window after database initialization. The patient information encryption key is now correctly initialized on all code paths.
+  - issues: [1206]
+    tags: [bugfix]
+    since: 8.5.30
+    description: Fix crash introduced in 8.5.30 after failing to load a deleted panel iteration.
+  - issues: [1203]
+    tags: [bugfix]
+    description: Add code to prevent possible crash when displaying a lot deletion error message.
+  - issues: [1204]
+    tags: [bugfix]
+    description: Add code to prevent a crash when modifying a panel that contains a result that does not refer to a valid panel cell.
+  - issues: [1208]
+    tags: [bugfix]
+    description: Add code to prevent the deletion of a panel in one part of Antigen Plus from crashing code in another.

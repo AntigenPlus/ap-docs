@@ -1,0 +1,13 @@
+version: 8.5.14
+date: 2018-11-02
+commit: 5fb842d524197374f5019f7ccc026a162c84cb9f
+changes:
+  - issues: [1125]
+    tags: [bugfix]
+    description: Fix crash when right-clicking on column headers of Panels table in Patient Details window.
+  - issues: [1124]
+    tags: [bugfix]
+    description: Disable “Duplication with fresh cells” button in Patient Details window when no panels are selected to prevent crash.
+  - issues: [1126]
+    tags: [feature]
+    description: Add “Delete” button to the controls that appear when editing panel conclusion notes. This allows you to select a predefined message and delete it. As a consequence, users must now double-click to insert or remove predefined messages from the conclusion notes.

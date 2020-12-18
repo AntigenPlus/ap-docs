@@ -1,0 +1,10 @@
+version: 8.5.33
+date: 2019-10-09
+commit: 309d95ecad46088a8812c7c5e420c95b20cb258f
+changes:
+  - issues: [1248]
+    tags: [bugfix]
+    description: Fix crash in Add/Edit Cells tab when saving lot information alone (no donor ID).
+  - issues: [1264]
+    tags: [improvement, ui]
+    description: Remove warning message about adding a cell to a commercial lot when you are only saving lot information (no donor ID).

@@ -3,3 +3,43 @@ img {
     margin-right: auto;
     display: block;
 }
+.main-content .release h2 {
+    margin-top: 2em;
+}
+.filters {
+    text-align: center;
+}
+.filters-inset {
+    display: inline-block;
+    // background-color: #EEE;
+    border: 1px solid #CCC;
+    label {
+        margin: 0 1em;
+    }
+}
+li.change {
+    display: none;
+}
+li.change.shown {
+    display: list-item
+}
+
+div.category {
+    display: none;
+}
+div.category.shown {
+    display: block;
+}
+
+div.release {
+    display: none;
+}
+div.release.shown {
+    display: block;
+}
+
+@media print {
+    .filters {
+        display: none;
+    }
+}
