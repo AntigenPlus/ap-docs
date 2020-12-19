@@ -1,5 +1,6 @@
 function updateCategory(className) {
     updateCategoryAlone(className);
+    setSearch(className, document.getElementById(className).checked);
     updateOther();
     updateReleases();
 }
@@ -38,8 +39,13 @@ function updateOther() {
 }
 
 function updateOldVersion() {
-    var oldVersion = document.getElementById('oldVersion').value;
+    setSearch('since', document.getElementById('oldVersion').value);
+    updateOldVersionAlone();
+    updateCategories();
+}
 
+function updateOldVersionAlone() {
+    var oldVersion = document.getElementById('oldVersion').value;
     var changes = document.getElementsByClassName('change');
     for (var i = 0; i < changes.length; i++) {
         var since = changes[i].dataset.since;
@@ -52,8 +58,6 @@ function updateOldVersion() {
             changes[i].classList.add('shown');
         }
     }
-
-    updateCategories();
 }
 
 function updateReleases() {
@@ -72,10 +76,9 @@ function updateReleases() {
 }
 
 function updateCategories() {
-
-    updateCategory('features');
-    updateCategory('improvements');
-    updateCategory('bugfixes');
+    updateCategoryAlone('features');
+    updateCategoryAlone('improvements');
+    updateCategoryAlone('bugfixes');
     updateOther();
 
     updateReleases();
@@ -127,4 +130,45 @@ function versionCompare(v1, v2, options) {
     }
 
     return 0;
+}
+
+function setSearch(key, value) {
+    if ('URLSearchParams' in window) {
+        var searchParams = new URLSearchParams(window.location.search);
+        searchParams.set(key, value);
+        var newRelativePathQuery = window.location.pathname + '?' + searchParams.toString();
+        history.pushState(null, '', newRelativePathQuery);
+    }
+}
+
+window.onload = function () {
+    if ('URLSearchParams' in window) {
+        var s = window.location.search;
+        if (s == '') return;
+        var searchParams = new URLSearchParams(window.location.search);
+
+        var v = searchParams.get('features');
+        if (v == 'false') {
+            document.getElementById('features').checked = false;
+        }
+
+        v = searchParams.get('improvements');
+        if (v == 'false') {
+            document.getElementById('improvements').checked = false;
+        }
+
+        v = searchParams.get('bugfixes');
+        if (v == 'false') {
+            document.getElementById('bugfixes').checked = false;
+        }
+
+        v = searchParams.get('since');
+        console.log(v);
+        if (v !== null) {
+            document.getElementById('oldVersion').value = v;
+        }
+
+        updateOldVersionAlone();
+        updateCategories();
+    }
 }
