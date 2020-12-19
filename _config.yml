@@ -24,3 +24,5 @@ search.preview_words_before: 5
 # Default: 10
 search.preview_words_after: 10
 logo: "logo.gif"
+
+plugins_dir: ./_plugins
