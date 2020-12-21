@@ -44,3 +44,14 @@ div.release.shown {
         display: none;
     }
 }
+
+.warning {
+    border: 2px solid #feb308;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    &::before {
+        content: 'Warning: ';
+        font-weight: bold;
+    }
+}

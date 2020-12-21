@@ -31,7 +31,9 @@
 		"markdownlint.config": {
 			"MD025": false,
 			"MD030": false
-		}
+		},
+		"lpubsppop01.autoTimeStamp.modifiedTimeStart": "[lL]ast[ -_][mM]odified([ -_][dD]ate)? *: ",
+		"lpubsppop01.autoTimeStamp.momentFormat": "YYYY-MM-DD HH:mm:ss"
 	},
 	"extensions": {
 		"recommendations": [
