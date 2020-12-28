@@ -27,7 +27,9 @@
 			"MD030": false
 		},
 		"prettier.proseWrap": "always",
-		"jekyll-run.commandLineArguments": "--livereload --config _config.yml,_serve.yml --trace"
+		"jekyll-run.commandLineArguments": "--livereload --config _config.yml,_serve.yml --trace",
+		"lpubsppop01.autoTimeStamp.modifiedTimeStart": "[lL]ast[ -_][mM]odified([ -_][dD]ate)? *: ",
+		"lpubsppop01.autoTimeStamp.momentFormat": "YYYY-MM-DD HH:mm:ss"
 	},
 	"extensions": {
 		"recommendations": [
