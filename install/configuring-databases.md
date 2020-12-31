@@ -3,7 +3,7 @@ title: Configuring databases
 parent: Installation and Configuration
 layout: default
 nav_order: 2
-last_modified_date: 2020-12-21 09:57:28
+last_modified_date: 2020-12-31 11:33:03
 ---
 
 # Configuring databases
@@ -136,11 +136,13 @@ To create a custom application shortcut:
    /cloud _connectionname_
 
    where _connectionname_ is the name you provided in your `connections.config`
-   file. Make sure you leave a space between the double-quote at the end of the
-   existing Target text and `/local` or `/cloud`. When you are done it should
-   look like:
+   file (for a local database) or requested from Antigen Plus (for a cloud
+   database). If the connection name contains a space, enclose the name in
+   double-quotes. Make sure you leave a space between the double-quote at the
+   end of the existing Target text and `/local` or `/cloud`. When you are done
+   it should look like:
 
-   ![Shortcut properties](images/local-database-shortcut.png)
+   <img srcset="images/local-database-shortcut.png 2x" src="images/local-database-shortcut.png" alt="Shortcut properties">
 
 6. Click _OK_ to save your changes.
 
