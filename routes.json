@@ -1,0 +1,9 @@
+{
+    "routes": [
+        {
+            "route": "/install/local-databases.html",
+            "serve": "/install/configuring-databases.html",
+            "statusCode": 301
+        }
+    ]
+}

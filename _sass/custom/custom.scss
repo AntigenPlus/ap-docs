@@ -2,6 +2,14 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+
+    // This allows downscaling but not upscaling.
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+pre {
+    white-space: pre-wrap;
 }
 .main-content .release h2 {
     margin-top: 2em;
@@ -52,6 +60,17 @@ div.release.shown {
     margin-bottom: 1em;
     &::before {
         content: 'Warning: ';
+        font-weight: bold;
+    }
+}
+
+.important {
+    border: 2px solid #feb308;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    &::before {
+        content: 'Important: ';
         font-weight: bold;
     }
 }
