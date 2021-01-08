@@ -3,7 +3,7 @@ title: Configuring databases
 parent: Installation and Configuration
 layout: default
 nav_order: 2
-last_modified_date: 2020-12-31 11:33:03
+last_modified_date: 2021-01-08 10:37:26
 ---
 
 # Configuring databases
@@ -79,10 +79,11 @@ default contents of this file are:
 </connectionStrings>
 ```
 
+{: .warning}
+
 The symbols `<!--` and `-->` are XML comment delimiters which prevent the sample
 `<add` commands from being executed. When you edit the file to include your own
-databases, your `<add` commands must be outside of these delimiters. {:
-.warning}
+databases, your `<add` commands must be outside of these delimiters.
 
 Note that there are three different names used in each connection string, and
 each has a distinct purpose:

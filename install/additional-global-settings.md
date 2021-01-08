@@ -3,7 +3,7 @@ title: Additional global settings
 parent: Installation and Configuration
 layout: default
 nav_order: 3
-last_modified_date: 2020-12-21 11:42:06
+last_modified_date: 2021-01-08 10:36:59
 ---
 
 # Additional global settings
@@ -108,11 +108,12 @@ Antigen Plus, you can log the raw analyzer output to troubleshoot the problem.
 Log files are stored in the `%APPDATA%\Rowny Systems, Inc\AntigenPlus`
 directory, which is a hidden folder inside the current user's home directory.
 
+{: .warning}
+
 LIS output from a blood analyzer may contain unencrypted Patient Health
 Information (PHI). You should only log raw analyzer output temporarily in order
 to troubleshoot communications problems. Delete the log files when
 troubleshooting is complete.
-{: .warning}
 
 ## Custom profiles for Erytra and Eflexis
 

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="106 37.125 1016.5 660.875" width="1016.5" height="660.875">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="4.35" y="-28.9625">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.3030978"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".2" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+        <feMergeNode in="color"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="black">
+      <g>
+        <path d="M 3.7333333 0 L 0 -1.4 L 0 1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-5 -3 6 6" markerWidth="6" markerHeight="6" color="black">
+      <g>
+        <path d="M -3.7333333 0 L 0 1.4 L 0 -1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="18" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.1\n2021-01-08 16:07:17 +0000</metadata>
+  <g id="Canvas_1" fill="none" fill-opacity="1" stroke-opacity="1" stroke="none" stroke-dasharray="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_3">
+        <rect x="106.5" y="102" width="407.625" height="595.5" fill="white"/>
+        <rect x="106.5" y="102" width="407.625" height="595.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(111.5 107)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Customer firewall</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <rect x="128.25" y="149.625" width="363.375" height="293.875" fill="white"/>
+        <rect x="128.25" y="149.625" width="363.375" height="293.875" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(133.25 154.625)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Workstation</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <rect x="128.25" y="525.375" width="363.375" height="146.25" fill="white"/>
+        <rect x="128.25" y="525.375" width="363.375" height="146.25" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(133.25 530.375)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">SQL Server</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <rect x="162" y="192" width="302.625" height="228.75" fill="white"/>
+        <rect x="162" y="192" width="302.625" height="228.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(167 197)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Fat client application (AntigenPlus8.exe)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <rect x="720.375" y="102" width="401.625" height="376.125" fill="white"/>
+        <rect x="720.375" y="102" width="401.625" height="376.125" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(725.375 107)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Microsoft Azure datacenter</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <rect x="750.75" y="304.125" width="347.625" height="146.25" fill="white"/>
+        <rect x="750.75" y="304.125" width="347.625" height="146.25" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(755.75 309.125)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Azure SQL Server</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11" filter="url(#Shadow)">
+        <path d="M 796.3094 339.75 L 888.1697 339.75 C 899.0355 339.75 907.8541 356.886 907.8541 378 C 907.8541 399.114 899.0355 416.25 888.1697 416.25 L 796.3094 416.25 C 785.4436 416.25 776.625 399.114 776.625 378 C 776.625 356.886 785.4436 339.75 796.3094 339.75 Z" fill="white"/>
+        <path d="M 796.3094 339.75 L 888.1697 339.75 C 899.0355 339.75 907.8541 356.886 907.8541 378 C 907.8541 399.114 899.0355 416.25 888.1697 416.25 L 796.3094 416.25 C 785.4436 416.25 776.625 399.114 776.625 378 C 776.625 356.886 785.4436 339.75 796.3094 339.75 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(794.7479 350)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="13.803165" y="11">Antigen Plus </tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="6.807072" y="25">customer cloud </tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="39.15668" y="39">DB</tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="19.4809" y="53">(AES-256)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12" filter="url(#Shadow)">
+        <path d="M 259.275 569.25 L 360.6 569.25 C 372.5853 569.25 382.3125 584.622 382.3125 603.5625 C 382.3125 622.503 372.5853 637.875 360.6 637.875 L 259.275 637.875 C 247.2897 637.875 237.5625 622.503 237.5625 603.5625 C 237.5625 584.622 247.2897 569.25 259.275 569.25 Z" fill="white"/>
+        <path d="M 259.275 569.25 L 360.6 569.25 C 372.5853 569.25 382.3125 584.622 382.3125 603.5625 C 382.3125 622.503 372.5853 637.875 360.6 637.875 L 259.275 637.875 C 247.2897 637.875 237.5625 622.503 237.5625 603.5625 C 237.5625 584.622 247.2897 569.25 259.275 569.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(257.0375 582.5625)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="19.211525" y="11">Antigen Plus </tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="4.2173843" y="25">customer local DB</tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="24.88926" y="39">(AES-256)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_16" filter="url(#Shadow)">
+        <path d="M 195.75 339.75 L 297.75 339.75 C 302.72056 339.75 306.75 343.77944 306.75 348.75 L 306.75 385.875 C 306.75 390.84556 302.72056 394.875 297.75 394.875 L 195.75 394.875 C 190.77944 394.875 186.75 390.84556 186.75 385.875 L 186.75 348.75 C 186.75 343.77944 190.77944 339.75 195.75 339.75 Z" fill="white"/>
+        <path d="M 195.75 339.75 L 297.75 339.75 C 302.72056 339.75 306.75 343.77944 306.75 348.75 L 306.75 385.875 C 306.75 390.84556 302.72056 394.875 297.75 394.875 L 195.75 394.875 C 190.77944 394.875 186.75 390.84556 186.75 385.875 L 186.75 348.75 C 186.75 343.77944 190.77944 339.75 195.75 339.75 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(191.75 346.3125)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="13.981445" y="11">PHI encryption/</tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="27.317383" y="25">decryption </tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="26.989258" y="39">(AES-256)</tspan>
+        </text>
+      </g>
+      <g id="Line_17">
+        <path d="M 271.8588 405.68755 C 318.99703 482.62926 320.28195 520.2074 315.72924 556.6254" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_18">
+        <rect x="232.4079" y="463.5847" width="155" height="39" fill="white"/>
+        <text transform="translate(237.5539 468.5847)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="19.008" y="11">blood inventory and</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="25.336">encrypted patient test data</tspan>
+        </text>
+      </g>
+      <g id="Line_19">
+        <path d="M 319.4469 374.8327 C 482.6177 388.62397 663.4721 385.25446 763.9497 381.5979" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_20">
+        <rect x="540.9134" y="358.2078" width="159.376" height="53.007996" fill="white"/>
+        <text transform="translate(545.9134 363.2078)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="21.342" y="11">blood inventory and</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="2.334" y="25.336">encrypted patient test data</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="11368684e-20" y="39.671997">(AES-256 &amp; TLS, TCP 1433)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_21" filter="url(#Shadow)">
+        <path d="M 960.5594 339.75 L 1052.4197 339.75 C 1063.2855 339.75 1072.1041 356.886 1072.1041 378 C 1072.1041 399.114 1063.2855 416.25 1052.4197 416.25 L 960.5594 416.25 C 949.6936 416.25 940.875 399.114 940.875 378 C 940.875 356.886 949.6936 339.75 960.5594 339.75 Z" fill="white"/>
+        <path d="M 960.5594 339.75 L 1052.4197 339.75 C 1063.2855 339.75 1072.1041 356.886 1072.1041 378 C 1072.1041 399.114 1063.2855 416.25 1052.4197 416.25 L 960.5594 416.25 C 949.6936 416.25 940.875 399.114 940.875 378 C 940.875 356.886 949.6936 339.75 960.5594 339.75 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(958.9979 364)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="9.812931" y="11">Administrative </tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="39.15668" y="25">DB</tspan>
+        </text>
+      </g>
+      <g id="Graphic_22" filter="url(#Shadow)">
+        <path d="M 804.75 149.625 L 1009.375 149.625 C 1014.3456 149.625 1018.375 153.65444 1018.375 158.625 L 1018.375 195.75 C 1018.375 200.72056 1014.3456 204.75 1009.375 204.75 L 804.75 204.75 C 799.7794 204.75 795.75 200.72056 795.75 195.75 L 795.75 158.625 C 795.75 153.65444 799.7794 149.625 804.75 149.625 Z" fill="white"/>
+        <path d="M 804.75 149.625 L 1009.375 149.625 C 1014.3456 149.625 1018.375 153.65444 1018.375 158.625 L 1018.375 195.75 C 1018.375 200.72056 1014.3456 204.75 1009.375 204.75 L 804.75 204.75 C 799.7794 204.75 795.75 200.72056 795.75 195.75 L 795.75 158.625 C 795.75 153.65444 799.7794 149.625 804.75 149.625 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(800.75 170.1875)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="18.38086" y="11">Webserver (api.antigenplus.com)</tspan>
+        </text>
+      </g>
+      <g id="Line_23">
+        <path d="M 930.8755 215.37235 C 955.3352 251.65588 981.3952 285.45153 995.8717 327.5788" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_24">
+        <rect x="883.1645" y="236.65342" width="151" height="39" fill="white"/>
+        <text transform="translate(888.6445 241.65342)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="10.02" y="11">software licensing and</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="4405365e-19" y="25.336">commercial blood lot data</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25" filter="url(#Shadow)">
+        <path d="M 195.75 246.375 L 297.75 246.375 C 302.72056 246.375 306.75 250.40444 306.75 255.375 L 306.75 284.375 C 306.75 289.34556 302.72056 293.375 297.75 293.375 L 195.75 293.375 C 190.77944 293.375 186.75 289.34556 186.75 284.375 L 186.75 255.375 C 186.75 250.40444 190.77944 246.375 195.75 246.375 Z" fill="white"/>
+        <path d="M 195.75 246.375 L 297.75 246.375 C 302.72056 246.375 306.75 250.40444 306.75 255.375 L 306.75 284.375 C 306.75 289.34556 302.72056 293.375 297.75 293.375 L 195.75 293.375 C 190.77944 293.375 186.75 289.34556 186.75 284.375 L 186.75 255.375 C 186.75 250.40444 190.77944 246.375 195.75 246.375 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(191.75 262.875)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="18.645508" y="11">application UI</tspan>
+        </text>
+      </g>
+      <g id="Line_27">
+        <path d="M 247.51283 306.1196 C 247.63392 314.04534 247.70292 320.9632 247.73254 326.99824" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Line_32">
+        <path d="M 319.5015 275.94425 C 460.4675 275.01166 633.0924 212.4437 783.1588 187.2493" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_33">
+        <rect x="541.0579" y="197.563" width="150.04" height="53.007996" fill="white"/>
+        <text transform="translate(546.05787 202.563)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="10.02" y="11">software licensing and</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="4405365e-19" y="25.336">commercial blood lot data</tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="11.004" y="39.671997">(TLS &amp; JWT, TCP 443)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_34">
+        <text transform="translate(111.5 42.125)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="0" y="18">Antigen Plus 8.5 data flow</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
