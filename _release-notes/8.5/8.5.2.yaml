@@ -1,0 +1,26 @@
+version: 8.5.2
+date: 2018-05-10
+commit: f3b82166448f94dd7bf6a08df24fe505857d7b90
+changes:
+  - issues: [1042]
+    tags: [bugfix]
+    description: Fix dithering of colored table headers under Remote Desktop
+  - issues: [1041]
+    tags: [bugfix]
+    description:
+      Work around crash in Windows Server 2012 R2 where opening the results
+      window could crash with a table column that was too narrow.
+  - issues: [1040]
+    tags: [bugfix]
+    description:
+      Fix bug where the column description would not appear when a new result
+      column is added to the Results Worksheet.
+  - issues: [1039]
+    tags: [bugfix]
+    description:
+      Increase width of Select Patient window so all information is visible.
+  - issues: [1037]
+    tags: [bugfix]
+    description:
+      Fix crash opening patient details window on displays where font scaling is
+      200%

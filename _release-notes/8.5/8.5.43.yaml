@@ -18,5 +18,5 @@ changes:
     tags: [bugfix]
     issues: [1365]
   - description: Back-port improved support for the Vision blood analyzer from 8.6 to 8.5
-    tags: [feature]
+    tags: [improvement]
     issues: [1376]

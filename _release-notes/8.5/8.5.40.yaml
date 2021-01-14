@@ -9,7 +9,7 @@ changes:
     tags: [feature]
     issues: [1358]
   - description: Add basic support for mixed-field reaction types, which can be reported by Erytra/Efliexis blood analyzers. The panel evaluation algorithm treats these as positive reactions.
-    tags: [feature]
+    tags: [improvement]
     issues: [1359]
   - description: Change algorithm that calculates orange rule-out highlights to assume that cells with test results will not be re-tested.
     tags: [bugfix]

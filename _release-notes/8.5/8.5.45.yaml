@@ -3,5 +3,5 @@ date: 2020-09-23
 commit: efd73113b1dd6f49b650d9cae523ab57da723707
 changes:
   - description: Allow LIS commands to span multiple frames. Needed to support Erytra from Grifols.
-    tags: [feature]
+    tags: [improvement]
     issues: [1360]

@@ -1,0 +1,8 @@
+version: 8.5.1
+date: 2018-05-04
+commit: 286d2a862d22a2bce4aebc4d7c8aab00b0db44ca
+changes:
+  - issues: [1038]
+    tags: [bugfix]
+    description:
+      Fix layout problem where panel description window buttons were offscreen when font size was 200%
