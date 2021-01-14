@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="317 27 428 568" width="428" height="568">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="274.2" y="-29.8">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.3030978"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".2" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+        <feMergeNode in="color"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white"/>
+      <stop offset="1" stop-color="#ffbdc0"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(367.375 78.125) rotate(45) scale(131.16831)"/>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <linearGradient x1="0" x2="1" id="Gradient_2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white"/>
+      <stop offset="1" stop-color="#a7ffb4"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient_2" xl:href="#Gradient_2" gradientTransform="translate(602.125 228.125) rotate(45) scale(131.16831)"/>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M -8 0 L 0 3 L 0 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <linearGradient id="Obj_Gradient_3" xl:href="#Gradient" gradientTransform="translate(367.375 278.125) rotate(45) scale(131.16831)"/>
+    <filter id="Shadow_2" filterUnits="userSpaceOnUse" x="274.2" y="-29.8">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.3030978"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".2" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+        <feMergeNode in="color"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="Obj_Gradient_4" xl:href="#Gradient_2" gradientTransform="translate(602.125 428.125) rotate(45) scale(131.16831)"/>
+    <linearGradient id="Obj_Gradient_5" xl:href="#Gradient" gradientTransform="translate(367.375 478.125) rotate(45) scale(131.16831)"/>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.1\n2018-06-25 15:58:49 +0000</metadata>
+  <g id="Canvas_1" fill="none" fill-opacity="1" stroke-opacity="1" stroke="none" stroke-dasharray="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_6">
+        <rect x="317.5" y="27.5" width="192" height="567" fill="white"/>
+        <rect x="317.5" y="27.5" width="192" height="567" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(322.5 32.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Customer’s workstation</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3" filter="url(#Shadow)">
+        <rect x="358.5" y="87" width="110.5" height="75" fill="url(#Obj_Gradient)"/>
+        <rect x="358.5" y="87" width="110.5" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(363.5 103.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="24.57129" y="11">Company </tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="22.567383" y="25">RSA-2048</tspan>
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="29.24121" y="39">key pair</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4" filter="url(#Shadow)">
+        <path d="M 367.5 187 L 460 187 C 464.97056 187 469 191.02944 469 196 L 469 253 C 469 257.97056 464.97056 262 460 262 L 367.5 262 C 362.52944 262 358.5 257.97056 358.5 253 L 358.5 196 C 358.5 191.02944 362.52944 187 367.5 187 Z" fill="white"/>
+        <path d="M 367.5 187 L 460 187 C 464.97056 187 469 191.02944 469 196 L 469 253 C 469 257.97056 464.97056 262 460 262 L 367.5 262 C 362.52944 262 358.5 257.97056 358.5 253 L 358.5 196 C 358.5 191.02944 362.52944 187 367.5 187 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(363.5 217.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="22.567383" y="11">RSA-2048</tspan>
+        </text>
+      </g>
+      <g id="Line_5">
+        <line x1="413.75" y1="162" x2="413.75" y2="177.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_7">
+        <rect x="552.5" y="27.5" width="192" height="567" fill="white"/>
+        <rect x="552.5" y="27.5" width="192" height="567" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(557.5 32.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">SQL Server</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9" filter="url(#Shadow)">
+        <rect x="593.25" y="137" width="110.5" height="75" fill="white"/>
+        <rect x="593.25" y="137" width="110.5" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(598.25 167.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="18.240234" y="11">PHI key salt</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10" filter="url(#Shadow)">
+        <rect x="593.25" y="237" width="110.5" height="75" fill="url(#Obj_Gradient_2)"/>
+        <rect x="593.25" y="237" width="110.5" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(598.25 267.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x=".5625" y="11">Encrypted PHI key</tspan>
+        </text>
+      </g>
+      <g id="Line_13">
+        <line x1="593.25" y1="186.26784" x2="478.6828" y2="210.6698" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_14">
+        <line x1="583.5672" y1="260.6698" x2="478.6828" y2="238.3302" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_15" filter="url(#Shadow)">
+        <rect x="358.5" y="287" width="110.5" height="75" fill="url(#Obj_Gradient_3)"/>
+        <rect x="358.5" y="287" width="110.5" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(363.5 317.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="29.24414" y="11">PHI key</tspan>
+        </text>
+      </g>
+      <g id="Line_16">
+        <line x1="413.75" y1="262" x2="413.75" y2="277.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_17" filter="url(#Shadow)">
+        <rect x="593.25" y="337" width="110.5" height="75" fill="white"/>
+        <rect x="593.25" y="337" width="110.5" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(598.25 367.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="29.24414" y="11">PHI salt</tspan>
+        </text>
+      </g>
+      <g id="Graphic_18" filter="url(#Shadow_2)">
+        <rect x="593.25" y="437" width="110.5" height="75" fill="url(#Obj_Gradient_4)"/>
+        <rect x="593.25" y="437" width="110.5" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(598.25 467.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="11.566406" y="11">Encrypted PHI</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19" filter="url(#Shadow)">
+        <path d="M 367.5 387 L 460 387 C 464.97056 387 469 391.02944 469 396 L 469 453 C 469 457.97056 464.97056 462 460 462 L 367.5 462 C 362.52944 462 358.5 457.97056 358.5 453 L 358.5 396 C 358.5 391.02944 362.52944 387 367.5 387 Z" fill="white"/>
+        <path d="M 367.5 387 L 460 387 C 464.97056 387 469 391.02944 469 396 L 469 453 C 469 457.97056 464.97056 462 460 462 L 367.5 462 C 362.52944 462 358.5 457.97056 358.5 453 L 358.5 396 C 358.5 391.02944 362.52944 387 367.5 387 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(363.5 417.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="26.23535" y="11">AES-256</tspan>
+        </text>
+      </g>
+      <g id="Line_20">
+        <line x1="413.75" y1="362" x2="413.75" y2="377.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_21">
+        <line x1="593.25" y1="386.26784" x2="478.6828" y2="410.6698" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_22">
+        <line x1="583.5672" y1="460.6698" x2="478.6828" y2="438.3302" marker-end="url(#FilledArrow_Marker)" marker-start="url(#FilledArrow_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_23" filter="url(#Shadow)">
+        <rect x="358.5" y="487" width="110.5" height="75" fill="url(#Obj_Gradient_5)"/>
+        <rect x="358.5" y="487" width="110.5" height="75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(363.5 517.5)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="40.248047" y="11">PHI</tspan>
+        </text>
+      </g>
+      <g id="Line_24">
+        <line x1="413.75" y1="462" x2="413.75" y2="477.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
