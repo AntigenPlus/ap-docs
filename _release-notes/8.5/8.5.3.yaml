@@ -1,0 +1,15 @@
+version: 8.5.3
+date: 2018-06-26
+commit: 285e99b7da3b25a1951c211d95f51cc1c604523a
+changes:
+  - issues: [1045]
+    tags: [feature]
+    description:
+      Separate result column type from analyzer flag, so that blood analyzer
+      results can be marked as unevaluated or enzyme-treated.
+  - issues: [1049]
+    tags: [improvement]
+    description: Allow deletion of panels with patient but no test results
+  - issues: [1044]
+    tags: [improvement]
+    description: Don't allow deleting users with saved panels

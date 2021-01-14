@@ -3,7 +3,7 @@ date: 2020-07-23
 commit: e017588646600b35c5082b67c37c9cf9b3c51139
 changes:
   - description: Allow Erytra/Eflexis support to use all matching Medion or Grifols panels
-    tags: [feature]
+    tags: [improvement]
     issues: [1361]
   - description: Prevent a transaction timeout when enabling encryption on an upgraded database.
     tags: [bugfix]
