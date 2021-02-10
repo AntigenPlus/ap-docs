@@ -1,9 +1,9 @@
 ---
-title: Blood analyzers
+title: Connecting Antigen Plus to a Blood Analyzer
 parent: Installation and Configuration
 layout: default
 nav_order: 4
-last_modified_date: 2021-02-10 12:37:07
+last_modified_date: 2021-02-10 13:13:21
 ---
 
 # Connecting Antigen Plus to a Blood Analyzer
@@ -11,26 +11,33 @@ last_modified_date: 2021-02-10 12:37:07
 ## Overview
 
 There are two parts to connecting Antigen Plus to a blood analyzer: physical
-cabling and software configuration.
+cabling and software configuration. Both the cabling and the configuration
+depend on whether you use a serial or an ethernet connection.
 
 When Antigen Plus is connected to a blood analyzer, it continually monitors the
 output of the analyzer for antigen screens. These results are stored in the
 Antigen Plus database, where they can be pulled up from any workstation running
 Antigen Plus for further analysis.
 
-## Supported analyzers
+### Supported analyzers
 
-Antigen Plus supports Neo analyzers from Immucor, Galileo & Echo analyzers from
-Immucor, and Tango analyzers from BioRad.
+Antigen Plus supports these blood analyzers:
 
-Neo analyzers have the advantage that they transmit the Immucor lot number as
-part of their results, so the process of creating an Antigen Plus panel is more
-automatic. With other analyzers the technologist must manually select the lot
-number used for testing.
+- Galileo Echo from Immucor
+- Erytra Eflexis from Grifols
+- IH-1000, NEO & Tango from Bio-Rad
+- VISION from Ortho
+
+IH-1000, NEO, and VISION analyzers have the advantage that they transmit the lot
+number as part of their results, so the process of creating an Antigen Plus
+panel is more automatic. With other analyzers the technologist must manually
+select the lot number used for testing.
 
 Please contact Antigen Plus if you need support for a blood analyzer not listed.
 
-## Cabling options
+## Serial connections
+
+### Cabling options
 
 Most blood analyzers are connected to a laboratory’s LIS system with an RS-232
 cable for placing of test orders and lookup of patient information.
@@ -61,7 +68,7 @@ it is possible to run Antigen Plus and the LIS on the same workstation. It is
 also possible to run Antigen Plus and the LIS on the same workstation using
 virtual serial port drivers. Please contact us if you have special needs.
 
-## Physical Cabling
+### Physical Cabling
 
 If you choose to cable Antigen Plus between the blood analyzer and the LIS, then
 no special cabling is needed. The workstation running Antigen Plus will need 2
@@ -95,7 +102,7 @@ cable.
 
 ![The pins to remove to create a one-way cable](images/diagram-one-way-cable.png)
 
-## Software Configuration
+### Software Configuration
 
 Once physical cabling is complete, you should log into Antigen Plus using an
 Antigen Plus administrator account and configure the blood analyzer by choosing
@@ -132,6 +139,49 @@ _Analyzer connections…_ from the _Options_ menu.
    ![The analyzer connections window](images/analyzer-connections.png)
 
 10. Close the _Analyzer connections_ window.
+
+## Ethernet connections
+
+Cabling is much simpler with ethernet connections. Simply make sure that both
+the blood analyzer and the Antigen Plus workstation are connected to the same
+ethernet network.
+
+You may also need a network administrator to configure firewall settings to
+allow communications between the blood analyzer and the Antigen Plus
+workstation, and (if you are using a LIS) between the Antigen Plus workstation
+and the LIS server.
+
+### Ethernet connection with no LIS
+
+If you are not using a LIS system with your blood analyzer, then you can
+configure the blood analyzer to use Antigen Plus as the LIS.
+
+<img srcset="images/analyzer-ethernet-active.png 2x" src="images/analyzer-ethernet-active.png" alt="Configuring an active ethernet connection">
+
+You can choose any available port number for Antigen Plus to listen on. You will
+need to configure the LIS settings on your blood analyzer to connect to the
+Antigen Plus workstation at the chosen port number.
+
+### Ethernet connection with an existing LIS
+
+If you have an existing LIS system that is connected to your blood analyzer via
+ethernet, then you will need to reconfigure the blood analyzer, Antigen Plus,
+and possibly the LIS system to use Antigen Plus as a proxy server between the
+blood analyzer and the LIS.
+
+<img srcset="images/analyzer-ethernet-passthrough.png 2x" src="images/analyzer-ethernet-passthrough.png" alt="Configuring a pass-through ethernet connection">
+
+The port number on the left for the analyzer connection can be any available
+port on the Antigen Plus workstation.
+
+The host and port number of the LIS connection on the right must match the
+workstation and port number of your existing LIS system. You should be able to
+copy these settings from your blood analyzer.
+
+You will need to change the LIS settings on the blood analyzer to use the
+Antigen Plus workstation address and port number instead of the address and port
+number of your LIS server. Record the existing settings in case you need to
+restore them later.
 
 ## Testing
 
