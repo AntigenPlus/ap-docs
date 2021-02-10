@@ -3,7 +3,7 @@ title: Interfacing with blood analyzers
 nav_order: 6
 layout: default
 parent: Deployment Planning
-last_modified_date: 2021-01-07 11:18:30
+last_modified_date: 2021-02-10 13:19:13
 ---
 
 # Interfacing with blood analyzers
@@ -30,6 +30,9 @@ questions:
    (LIS)?
 3. Are the connections to the current LIS using serial or ethernet?
 4. Where will the workstations running Antigen Plus be located?
+
+For more detailed installation and configuration instructions, see
+[Connecting Antigen Plus to a Blood Analyzer](/install/blood-analyzers.html).
 
 ## Serial connections
 
