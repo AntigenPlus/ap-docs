@@ -1,0 +1,7 @@
+version: 8.0.44
+date: 2016-12-02
+commit: d62acad07bd007d5c0f41b5d4b7acf284c40f482
+changes:
+  - tags: [migration]
+    issues: [866]
+    description: Store global sort order for displayed panels.

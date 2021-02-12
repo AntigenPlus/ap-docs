@@ -1,0 +1,7 @@
+version: 8.0.31
+date: 2016-10-05
+commit: 6405f5e0cd012c0fb7f388674b362ca80e31a23b
+changes:
+  - tags: [migration]
+    issues: [803]
+    description: Allow arbitrary amounts of text in the "edit reason" field.

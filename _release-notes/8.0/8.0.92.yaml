@@ -1,0 +1,8 @@
+version: 8.0.92
+date: 2017-12-19
+commit: bb2c53c1ee8f34ee66ce0af04ca70f39da2cffeb
+changes:
+  - tags: [migration]
+    issues: [1017]
+    description:
+      Add suppliers for Grifols and Bio-Rad to support customers in Brazil.

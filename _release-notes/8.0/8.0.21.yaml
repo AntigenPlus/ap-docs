@@ -1,0 +1,7 @@
+version: 8.0.21
+date: 2016-09-01
+commit: 6a201bfe0c59d90dce4a28752bdbe156c4c6b1d9
+changes:
+  - tags: [migration]
+    issues: [738]
+    description: Add system option to require specimen numbers.
