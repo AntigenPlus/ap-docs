@@ -2,7 +2,7 @@
 layout: default
 title: Upgrades
 nav_order: 4
-last_modified_date: 2021-02-12 11:16:10
+last_modified_date: 2021-02-12 11:30:21
 ---
 
 # Upgrades
@@ -20,7 +20,7 @@ from. Here are the major versions that affect the upgrade process:
 ## Database migrations
 
 If you are upgrading from Antigen Plus 7.5 or earlier, then your database will
-need to be converted manually by Antigen Plus. Contact
+need to be converted manually by our staff. Contact
 [customerservice@antigenplus.com](mailto:customerservice@antigenplus.com) for
 help planning your upgrade.
 
@@ -51,12 +51,14 @@ you will need to perform a migration to upgrade the software.
 You can find additional details about database migrations in our
 [Release notes](/release-notes.html).
 
-{: .important}
+### If no migration is required
 
-Once your database has been migrated to a newer version, older versions of
-Antigen Plus will no longer be able to connect to the database. You should plan
-your upgrade so that all workstations accessing the same database will be
-upgraded at the same time.
+If no migration is required, then the upgrade process is quite flexible. You can
+install the new version of Antigen Plus on individual workstations, and they can
+connect to the same database as the old version of Antigen Plus. Just make sure
+that no one is running Antigen Plus on that workstation, and run the new
+installer to upgrade Antigen Plus. Antigen Plus will upgrade in-place and
+maintain any customized settings or configuration files.
 
 ### If a migration is required
 
@@ -76,3 +78,10 @@ upgraded at the same time.
    prompted to start the database migration. This may take several minutes.
 6. When the migration is complete, Antigen Plus will open normally.
 7. Other users may now resume using Antigen Plus.
+
+{: .important}
+
+Once your database has been migrated to a newer version, older versions of
+Antigen Plus will no longer be able to connect to the database. You should plan
+your upgrade so that all workstations accessing the same database will be
+upgraded at the same time.
