@@ -1,0 +1,7 @@
+version: 8.0.67
+date: 2017-08-15
+commit: 6aab0b51bb1984828e98de89b546f158b2d247bf
+changes:
+  - tags: [migration]
+    issues: [927]
+    description: Change storage of vial numbers to improve performance.

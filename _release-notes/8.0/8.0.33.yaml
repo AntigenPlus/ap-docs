@@ -1,0 +1,10 @@
+version: 8.0.33
+date: 2016-10-13
+commit: 8cce7332af2c3c1359dee72346c6eb1110b90476
+changes:
+  - tags: [migration]
+    issues: [805]
+    description: Allow Unicode text in most text entry fields.
+  - tags: [migration]
+    issues: [815]
+    description: Remove obsolete fields from database.

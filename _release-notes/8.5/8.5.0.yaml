@@ -4,4 +4,10 @@ commit: 627e40c0c3ac347215b09e1ca8bb4215ac7456db
 changes:
   - tags: [feature]
     description:
-      New registration, licensing, and database selection system allows customers to have multiple databases under the same license and mix cloud and local databases.
+      New registration, licensing, and database selection system allows
+      customers to have multiple databases under the same license and mix cloud
+      and local databases.
+  - tags: [migration]
+    description:
+      Unify licensing for cloud and local databases, so that a single
+      application supports both.

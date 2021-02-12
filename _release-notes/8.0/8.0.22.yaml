@@ -1,0 +1,7 @@
+version: 8.0.22
+date: 2016-09-03
+commit: 8d903738bad286568e78819ca9cb5e8b68edd9e9
+changes:
+  - tags: [migration]
+    issues: [731]
+    description: Store patient notes and worksheet conclusion notes separately.

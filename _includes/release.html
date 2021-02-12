@@ -5,10 +5,20 @@
   <p class="description">{{ release.description }}</p>
   {% endif %}
 
-  {% assign total = release.features.size | plus: release.improvements.size | plus: release.bugfixes.size %}
+  {% assign total = release.features.size | plus: release.improvements.size | plus: release.bugfixes.size | plus: release.migrations.size %}
 
   {% if release.changes.size != total %}
   <h1>INCORRECT TAGS</h1>
+  {% endif %}
+
+  {% if release.migrations.size > 0 %}
+  <div class="category migrations shown">
+  <h3>Database migration</h3>
+  <ul class="changes">
+    {% for change in release.migrations %} {% include change.html change=change %}
+    {% endfor %}
+  </ul>
+  </div>
   {% endif %}
 
   {% if release.features.size > 0 %}

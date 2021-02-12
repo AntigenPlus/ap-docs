@@ -53,6 +53,7 @@ module Jekyll
                 release['features'] = release['changes'].select { |c| c['tags'].include?('feature')}
                 release['bugfixes'] = release['changes'].select { |c| c['tags'].include?('bugfix')}
                 release['improvements'] = release['changes'].select { |c| c['tags'].include?('improvement')}
+                release['migrations'] = release['changes'].select { |c| c['tags'].include?('migration')}
             }
 
             site.data['releases'] = releases

@@ -1,0 +1,8 @@
+version: 8.0.93
+date: 2018-01-26
+commit: c4265eb696621e749aaadb75101d9e65f9bf4407
+changes:
+  - tags: [migration]
+    issues: [1009]
+    description:
+      Store both the analyzer name and the connection name for analyzer results.

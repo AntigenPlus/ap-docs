@@ -1,0 +1,9 @@
+version: 8.0.2
+date: 2016-07-19
+commit: 456e2e1e9f2b0b70d063b11fa9cc57e6eb846ad7
+changes:
+  - tags: [migration]
+    issues: [605]
+    description:
+      Add configuration of blood analyzers and storage of blood analyzer
+      results. Allow worksheets to have an arbitrary number of result columns.

@@ -1,0 +1,12 @@
+version: 8.0.54
+date: 2017-05-30
+commit: 60442f5f0b37ebe35d0ab1a117b2399a8a783f99
+changes:
+  - tags: [migration]
+    issues: [899]
+    description: Add fields to support Vision blood analyzer.
+  - tags: [migration]
+    issues: [901]
+    description:
+      Add result column descriptions. Add system options to display single-dose
+      rule-outs and to print in color.

@@ -1,0 +1,10 @@
+version: 8.0.1
+date: 2016-02-25
+commit: 7540167cc2e56657fc6593f6ecda9334022c3b66
+changes:
+  - tags: [migration]
+    issues: [581]
+    description:
+      Upgrade to Entity Framework 6.1. Note that upgrading from earlier versions
+      of Antigen Plus requires a manual database conversion performed by Antigen
+      Plus.
