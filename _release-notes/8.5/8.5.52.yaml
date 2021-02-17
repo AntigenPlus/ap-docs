@@ -1,0 +1,13 @@
+﻿version: 8.5.52
+date: 2021-02-17
+commit: 58bead51a18d596f7c468c34f4fdd0eda83305b6
+changes:
+  - description:
+      Add ability to save a panel as a IH-1000 analyzer import file for demos.
+    tags: [internal, feature]
+    issues: [1403]
+  - description:
+      Fix problem where Antigen Plus would not recognize the lot numbers for 2-
+      and 3-cell screens when importing results from an IH-1000 blood analyzer.
+    issues: [1405]
+    tags: [bugfix]
