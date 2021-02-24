@@ -3,7 +3,7 @@ title: Troubleshooting
 nav_order: 4
 layout: default
 has_children: false
-last_modified_date: 2021-02-24 08:08:01
+last_modified_date: 2021-02-24 08:12:54
 ---
 
 # Troubleshooting
@@ -38,7 +38,7 @@ the password to log in as that user.
 
 4. Use the _Change Password_ button to assign that user a password.
 
-5. Save the changes in the _Change Pasword_ window, the _Account Settings_
+5. Save the changes in the _Change Password_ window, the _Account Settings_
    window, and the _Maintain Accounts_ window.
 
 6. Choose _Switch User..._ from the _User_ menu.
